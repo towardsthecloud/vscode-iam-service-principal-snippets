@@ -1,0 +1,10 @@
+.gitchangelog.rc
+.github/**
+.gitignore
+.pytest_cache/**
+.venv/**
+.vscode-test/**
+.vscode/**
+**/*.ts
+out/README.md
+src/**
