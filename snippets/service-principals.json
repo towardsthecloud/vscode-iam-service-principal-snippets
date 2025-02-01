@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1556,9 +1556,9 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
-      "cognitouserpools"
+      "cognitouserpools",
+      "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -3732,8 +3732,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
@@ -4307,8 +4307,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafclassic",
       "wafregional",
+      "wafclassic",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
