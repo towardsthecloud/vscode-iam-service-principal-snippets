@@ -1,0 +1,88 @@
+{
+  "name": "iam-service-principal-snippets",
+  "displayName": "AWS IAM Service Principal Snippets",
+  "description": "This VS Code extension provides autocompletion of all AWS services that can be used as Service Principals in your IAM policies.",
+  "author": "Danny Steenman",
+  "version": "1.0.0",
+  "publisher": "dannysteenman",
+  "icon": "images/iam-service-principal-snippets-extension-icon.png",
+  "homepage": "https://towardsthecloud.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannysteenman/vscode-iam-service-principal-snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "galleryBanner": {
+    "color": "#2B2C33",
+    "theme": "dark"
+  },
+  "categories": ["Snippets"],
+  "keywords": ["aws", "policy", "iam", "principal", "security"],
+  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/v/dannysteenman.iam-service-principal-snippets",
+      "href": "https://marketplace.visualstudio.com/items?itemName=dannysteenman.iam-service-principal-snippets",
+      "description": "Version"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/i/dannysteenman.iam-service-principal-snippets",
+      "href": "https://marketplace.visualstudio.com/items?itemName=dannysteenman.iam-service-principal-snippets",
+      "description": "Installs"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/stars/dannysteenman.iam-service-principal-snippets",
+      "href": "https://marketplace.visualstudio.com/items?itemName=dannysteenman.iam-service-principal-snippets",
+      "description": "Rating"
+    }
+  ],
+  "activationEvents": [
+    "onLanguage:json",
+    "onLanguage:python",
+    "onLanguage:terraform",
+    "onLanguage:typescript",
+    "onLanguage:yaml"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^14.x",
+    "@types/vscode": "^1.31.0",
+    "typescript": "^5.x"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "json",
+        "aliases": ["JSON", "json"],
+        "extensions": [".json", ".template"]
+      },
+      {
+        "id": "yaml",
+        "aliases": ["YAML", "yaml"],
+        "extensions": [".yaml", ".yml", ".template"]
+      },
+      {
+        "id": "terraform",
+        "aliases": ["Terraform", "terraform"],
+        "extensions": [".tf", ".tfvars"]
+      },
+      {
+        "id": "python",
+        "aliases": ["Python", "python"],
+        "extensions": [".py"]
+      },
+      {
+        "id": "typescript",
+        "aliases": ["TypeScript", "typescript"],
+        "extensions": [".ts", ".tsx"]
+      }
+    ]
+  }
+}

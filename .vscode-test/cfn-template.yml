@@ -22,7 +22,7 @@ Resources:
           Effect: Allow
           Resource: "*"
           Principal:
-            Service: a2c.amazonaws.com
+            Service: s3.amazonaws.com
         - Action:
             - s3:ReplicateObject
             - s3:ReplicateDelete
