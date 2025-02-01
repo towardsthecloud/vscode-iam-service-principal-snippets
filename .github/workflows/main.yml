@@ -1,0 +1,70 @@
+name: Fetch AWS Service Principals and update this VSCode extension.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 9 * * 5" # At 09:20 on Friday.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install Python
+        run: |
+          set -x -e
+          sudo apt install python3-setuptools
+          python3 -m pip install --upgrade pip && pip3 install -r src/requirements.txt
+      - name: Update the IAM Service Principal Snippets
+        run: |
+          echo "Update the IAM Service Principal Snippets"
+          python3 src/update_service_principals.py
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "::set-output name=changes_exist::true"
+      - name: Commit changes to Github
+        if: steps.git-check.outputs.changes_exist == 'true'
+        run: |
+          set -x -e
+          # Configure git
+          git config --global user.name 'Github Actions'
+          git config --global user.email 'danny@towardsthecloud.com'
+
+          # Update version
+          npm version minor --force --no-git-tag-version
+          package_version=$(cat package.json | grep 'version":' | sed 's/[",]//g' | awk '{print $2}')
+
+          # Install dependencies and prepare for publishing
+          npm install
+          npm run vscode:prepublish
+
+          # Generate changelog
+          gitchangelog | tee "CHANGELOG.md"
+
+          # Commit and push changes
+          git commit -am "build: auto-update snippets to version: $package_version"
+          git push
+
+          # Create and push tag
+          git tag $package_version
+          git push origin --tags
+      - name: Publish to Visual Studio Marketplace
+        if: steps.git-check.outputs.changes_exist == 'true'
+        uses: HaaLeo/publish-vscode-extension@v1
+        id: publishToVSCE
+        with:
+          pat: ${{ secrets.VSCE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
+      - name: Publish to Open VSX Registry
+        if: steps.git-check.outputs.changes_exist == 'true'
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.OPEN_VSX_TOKEN }}
+          extensionFile: ${{ steps.publishToVSCE.outputs.vsixPath }}

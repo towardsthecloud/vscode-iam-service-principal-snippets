@@ -1,0 +1,4453 @@
+{
+  "a2c": {
+    "originalNames": [
+      "a2c"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "a2c.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "a4b": {
+    "originalNames": [
+      "a4b"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "a4b.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "access-analyzer": {
+    "originalNames": [
+      "access-analyzer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "access-analyzer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "account": {
+    "originalNames": [
+      "account"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "account.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "acm": {
+    "originalNames": [
+      "certificatemanageracm",
+      "acm"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/acm/latest/userguide/acm-slr.html",
+    "servicePrincipal": "acm.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "acm-pca": {
+    "originalNames": [
+      "acm-pca"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "acm-pca.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "activate": {
+    "originalNames": [
+      "activate"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "activate.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "aiops": {
+    "originalNames": [
+      "aiops"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aiops.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "airflow": {
+    "originalNames": [
+      "airflow"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "airflow.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "amplify": {
+    "originalNames": [
+      "amplify"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "amplify.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "amplifybackend": {
+    "originalNames": [
+      "amplifybackend"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "amplifybackend.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "amplifyuibuilder": {
+    "originalNames": [
+      "amplifyuibuilder"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "amplifyuibuilder.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "aoss": {
+    "originalNames": [
+      "aoss"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aoss.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "apigateway": {
+    "originalNames": [
+      "apigateway"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "apigateway.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "app-integrations": {
+    "originalNames": [
+      "appintegrations",
+      "app-integrations"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/connect/latest/adminguide/appintegrations-slr.html",
+    "servicePrincipal": "app-integrations.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "appconfig": {
+    "originalNames": [
+      "appconfig"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appconfig.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appfabric": {
+    "originalNames": [
+      "appfabric"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appfabric.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appflow": {
+    "originalNames": [
+      "appflow"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appflow.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "application-autoscaling": {
+    "originalNames": [
+      "application-autoscaling"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "application-autoscaling.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "application-cost-profiler": {
+    "originalNames": [
+      "application-cost-profiler"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "application-cost-profiler.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "application-signals": {
+    "originalNames": [
+      "application-signals"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "application-signals.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "application-transformation": {
+    "originalNames": [
+      "application-transformation"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "application-transformation.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "applicationinsights": {
+    "originalNames": [
+      "applicationinsights"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "applicationinsights.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appmesh": {
+    "originalNames": [
+      "appmesh",
+      "appmeshpreview",
+      "appmesh"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "appmesh.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "appmesh-preview": {
+    "originalNames": [
+      "appmesh-preview"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appmesh-preview.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appropriate-service-name": {
+    "originalNames": [
+      "dataexchange"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/data-exchange/latest/userguide/using-service-linked-roles-adx.html",
+    "servicePrincipal": "appropriate-service-name.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "apprunner": {
+    "originalNames": [
+      "apprunner"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "apprunner.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appstream": {
+    "originalNames": [
+      "appstream"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appstream.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appstudio": {
+    "originalNames": [
+      "appstudio"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appstudio.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "appsync": {
+    "originalNames": [
+      "appsync"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "appsync.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "apptest": {
+    "originalNames": [
+      "apptest"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "apptest.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "aps": {
+    "originalNames": [
+      "aps"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aps.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "arc-zonal-shift": {
+    "originalNames": [
+      "arc-zonal-shift"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "arc-zonal-shift.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "arsenal": {
+    "originalNames": [
+      "arsenal"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "arsenal.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "artifact": {
+    "originalNames": [
+      "artifact"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "artifact.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "athena": {
+    "originalNames": [
+      "athena"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "athena.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "auditmanager": {
+    "originalNames": [
+      "auditmanager",
+      "auditmanager"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/audit-manager/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "auditmanager.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "autoscaling": {
+    "originalNames": [
+      "ec2autoscaling",
+      "autoscaling"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-service-linked-role.html",
+    "servicePrincipal": "autoscaling.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "autoscaling-plans": {
+    "originalNames": [
+      "autoscaling",
+      "autoscaling-plans"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/autoscaling/plans/userguide/aws-auto-scaling-service-linked-roles.html",
+    "servicePrincipal": "autoscaling-plans.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "aws-marketplace": {
+    "originalNames": [
+      "aws-marketplace"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aws-marketplace.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "aws-marketplace-management": {
+    "originalNames": [
+      "aws-marketplace-management"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aws-marketplace-management.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "aws-portal": {
+    "originalNames": [
+      "aws-portal"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aws-portal.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "awsconnector": {
+    "originalNames": [
+      "awsconnector"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "awsconnector.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "b2bi": {
+    "originalNames": [
+      "b2bi"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "b2bi.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "backup": {
+    "originalNames": [
+      "backup"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "backup.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "backup-gateway": {
+    "originalNames": [
+      "backup-gateway"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "backup-gateway.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "backup-search": {
+    "originalNames": [
+      "backup-search"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "backup-search.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "backup-storage": {
+    "originalNames": [
+      "backup-storage"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "backup-storage.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "batch": {
+    "originalNames": [
+      "batch",
+      "batch"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/batch/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "batch.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "bcm-data-exports": {
+    "originalNames": [
+      "bcm-data-exports"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bcm-data-exports.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bcm-pricing-calculator": {
+    "originalNames": [
+      "bcm-pricing-calculator"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bcm-pricing-calculator.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bedrock": {
+    "originalNames": [
+      "bedrock"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bedrock.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "billing": {
+    "originalNames": [
+      "billing"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "billing.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "billingconductor": {
+    "originalNames": [
+      "billingconductor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "billingconductor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "braket": {
+    "originalNames": [
+      "braket",
+      "braket"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-slr.html",
+    "servicePrincipal": "braket.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "budgets": {
+    "originalNames": [
+      "budgets"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "budgets.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bugbust": {
+    "originalNames": [
+      "bugbust"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bugbust.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cases": {
+    "originalNames": [
+      "cases"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cases.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cassandra": {
+    "originalNames": [
+      "cassandra"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cassandra.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ce": {
+    "originalNames": [
+      "ce"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ce.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "chatbot": {
+    "originalNames": [
+      "chatbot"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "chatbot.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "chime": {
+    "originalNames": [
+      "chime"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "chime.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cleanrooms": {
+    "originalNames": [
+      "cleanrooms"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cleanrooms.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cleanrooms-ml": {
+    "originalNames": [
+      "cleanrooms-ml"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cleanrooms-ml.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloud9": {
+    "originalNames": [
+      "cloud9",
+      "cloud9"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/cloud9/latest/user-guide/using-service-linked-roles.html",
+    "servicePrincipal": "cloud9.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "clouddirectory": {
+    "originalNames": [
+      "clouddirectory"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "clouddirectory.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudformation": {
+    "originalNames": [
+      "cloudformation"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudformation.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudfront": {
+    "originalNames": [
+      "cloudfront"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudfront.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudfront-keyvaluestore": {
+    "originalNames": [
+      "cloudfront-keyvaluestore"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudfront-keyvaluestore.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudhsm": {
+    "originalNames": [
+      "cloudhsm"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudhsm.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudsearch": {
+    "originalNames": [
+      "cloudsearch"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudsearch.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudshell": {
+    "originalNames": [
+      "cloudshell"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudshell.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudtrail": {
+    "originalNames": [
+      "cloudtrail",
+      "cloudtrail"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "cloudtrail.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "cloudtrail-data": {
+    "originalNames": [
+      "cloudtrail-data"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudtrail-data.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cloudwatch": {
+    "originalNames": [
+      "cloudwatch"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cloudwatch.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codeartifact": {
+    "originalNames": [
+      "codeartifact"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codeartifact.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codebuild": {
+    "originalNames": [
+      "codebuild"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codebuild.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codecatalyst": {
+    "originalNames": [
+      "codecatalyst",
+      "codecatalyst"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/codecatalyst/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "codecatalyst.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "codecommit": {
+    "originalNames": [
+      "codecommit"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codecommit.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codeconnections": {
+    "originalNames": [
+      "codeconnections"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codeconnections.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codedeploy": {
+    "originalNames": [
+      "codedeploy"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codedeploy.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codedeploy-commands-secure": {
+    "originalNames": [
+      "codedeploy-commands-secure"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codedeploy-commands-secure.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codeguru": {
+    "originalNames": [
+      "codeguru"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codeguru.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codeguru-profiler": {
+    "originalNames": [
+      "codeguruprofiler",
+      "codeguru-profiler"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/codeguru/latest/profiler-ug/using-service-linked-roles.html",
+    "servicePrincipal": "codeguru-profiler.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "codeguru-reviewer": {
+    "originalNames": [
+      "codeguru-reviewer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codeguru-reviewer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codeguru-security": {
+    "originalNames": [
+      "codeguru-security"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codeguru-security.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codepipeline": {
+    "originalNames": [
+      "codepipeline"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codepipeline.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codestar": {
+    "originalNames": [
+      "codestar"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codestar.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codestar-connections": {
+    "originalNames": [
+      "codestar-connections"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "codestar-connections.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "codestar-notifications": {
+    "originalNames": [
+      "codestarnotifications",
+      "codestar-notifications"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/dtconsole/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "codestar-notifications.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "codewhisperer": {
+    "originalNames": [
+      "codewhisperer",
+      "codewhisperer"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/codewhisperer/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "codewhisperer.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "cognito-identity": {
+    "originalNames": [
+      "cognito-identity"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cognito-identity.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cognito-idp": {
+    "originalNames": [
+      "cognito-idp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cognito-idp.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cognito-sync": {
+    "originalNames": [
+      "cognito-sync"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cognito-sync.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "comprehend": {
+    "originalNames": [
+      "comprehend"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "comprehend.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "comprehendmedical": {
+    "originalNames": [
+      "comprehendmedical"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "comprehendmedical.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "compute-optimizer": {
+    "originalNames": [
+      "computeoptimizer",
+      "compute-optimizer"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/using-service-linked-roles.html",
+    "servicePrincipal": "compute-optimizer.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "config": {
+    "originalNames": [
+      "config",
+      "config"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/config/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "config.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "connect": {
+    "originalNames": [
+      "connect",
+      "connect"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/connect/latest/adminguide/connect-slr.html",
+    "servicePrincipal": "connect.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "connect-campaigns": {
+    "originalNames": [
+      "connect-campaigns"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "connect-campaigns.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "consoleapp": {
+    "originalNames": [
+      "consoleapp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "consoleapp.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "consolidatedbilling": {
+    "originalNames": [
+      "consolidatedbilling"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "consolidatedbilling.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "controlcatalog": {
+    "originalNames": [
+      "controlcatalog"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "controlcatalog.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "controltower": {
+    "originalNames": [
+      "controltower"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "controltower.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cost-optimization-hub": {
+    "originalNames": [
+      "cost-optimization-hub"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cost-optimization-hub.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "cur": {
+    "originalNames": [
+      "cur"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "cur.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "customer-verification": {
+    "originalNames": [
+      "customer-verification"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "customer-verification.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "databrew": {
+    "originalNames": [
+      "databrew"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "databrew.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "dataexchange": {
+    "originalNames": [
+      "dataexchange"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "dataexchange.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "datapipeline": {
+    "originalNames": [
+      "datapipeline"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "datapipeline.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "datasync": {
+    "originalNames": [
+      "datasync"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "datasync.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "datazone": {
+    "originalNames": [
+      "datazone"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "datazone.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "dax": {
+    "originalNames": [
+      "dynamodbacceleratordax",
+      "dax"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "dax.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "dbqms": {
+    "originalNames": [
+      "dbqms"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "dbqms.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "deadline": {
+    "originalNames": [
+      "deadline"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "deadline.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "deepcomposer": {
+    "originalNames": [
+      "deepcomposer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "deepcomposer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "deeplens": {
+    "originalNames": [
+      "deeplens"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "deeplens.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "deepracer": {
+    "originalNames": [
+      "deepracer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "deepracer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "detective": {
+    "originalNames": [
+      "detective"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "detective.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "devicefarm": {
+    "originalNames": [
+      "devicefarm"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "devicefarm.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "devops-guru": {
+    "originalNames": [
+      "devopsguru",
+      "devops-guru"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/devops-guru/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "devops-guru.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "directconnect": {
+    "originalNames": [
+      "directconnect",
+      "directconnect"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/using-service-linked-roles.html",
+    "servicePrincipal": "directconnect.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "discovery": {
+    "originalNames": [
+      "discovery"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "discovery.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "dlm": {
+    "originalNames": [
+      "dlm"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "dlm.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "dms": {
+    "originalNames": [
+      "dms"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "dms.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "docdb-elastic": {
+    "originalNames": [
+      "docdb-elastic"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "docdb-elastic.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "drs": {
+    "originalNames": [
+      "elasticdisasterrecovery",
+      "drs"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/drs/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "drs.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "ds": {
+    "originalNames": [
+      "ds"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ds.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ds-data": {
+    "originalNames": [
+      "ds-data"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ds-data.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "dsql": {
+    "originalNames": [
+      "dsql"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "dsql.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "dynamodb": {
+    "originalNames": [
+      "dynamodb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "dynamodb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ebs": {
+    "originalNames": [
+      "ebs"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ebs.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ec2": {
+    "originalNames": [
+      "applicationautoscaling",
+      "ec2"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/autoscaling/application/userguide/application-auto-scaling-service-linked-roles.html",
+    "servicePrincipal": "ec2.application-autoscaling.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "ec2-instance-connect": {
+    "originalNames": [
+      "ec2instanceconnect",
+      "ec2-instance-connect"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/eice-slr.html",
+    "servicePrincipal": "ec2-instance-connect.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "ec2messages": {
+    "originalNames": [
+      "ec2messages"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ec2messages.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ecr": {
+    "originalNames": [
+      "ecr"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ecr.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ecr-public": {
+    "originalNames": [
+      "ecr-public"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ecr-public.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ecs": {
+    "originalNames": [
+      "elasticcontainerserviceamazonecs",
+      "ecs"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "ecs.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "eks": {
+    "originalNames": [
+      "eks"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "eks.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "eks-auth": {
+    "originalNames": [
+      "eks-auth"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "eks-auth.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elasticache": {
+    "originalNames": [
+      "elasticache",
+      "elasticache"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/using-service-linked-roles.html",
+    "servicePrincipal": "elasticache.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "elasticbeanstalk": {
+    "originalNames": [
+      "elasticbeanstalk"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elasticbeanstalk.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elasticfilesystem": {
+    "originalNames": [
+      "elasticfilesystemamazonefs",
+      "elasticfilesystem"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/efs/latest/ug/using-service-linked-roles.html",
+    "servicePrincipal": "elasticfilesystem.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "elasticloadbalancing": {
+    "originalNames": [
+      "elasticloadbalancing",
+      "elasticloadbalancing"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/elb-service-linked-roles.html",
+    "servicePrincipal": "elasticloadbalancing.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "elasticmapreduce": {
+    "originalNames": [
+      "elasticmapreduce"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elasticmapreduce.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elastictranscoder": {
+    "originalNames": [
+      "elastictranscoder"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elastictranscoder.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elemental-activations": {
+    "originalNames": [
+      "elemental-activations"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elemental-activations.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elemental-appliances-software": {
+    "originalNames": [
+      "elemental-appliances-software"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elemental-appliances-software.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elemental-support-cases": {
+    "originalNames": [
+      "elemental-support-cases"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elemental-support-cases.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "elemental-support-content": {
+    "originalNames": [
+      "elemental-support-content"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "elemental-support-content.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "email": {
+    "originalNames": [
+      "cognitosync",
+      "cognito",
+      "cognitouserpools"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "email.cognito-idp.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "emr-containers": {
+    "originalNames": [
+      "emroneks",
+      "emr-containers"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/using-service-linked-roles.html",
+    "servicePrincipal": "emr-containers.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "emr-serverless": {
+    "originalNames": [
+      "emr-serverless"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "emr-serverless.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "entityresolution": {
+    "originalNames": [
+      "entityresolution"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "entityresolution.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "es": {
+    "originalNames": [
+      "es"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "es.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "events": {
+    "originalNames": [
+      "workmail",
+      "events"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/workmail/latest/adminguide/using-service-linked-roles.html",
+    "servicePrincipal": "events.workmail.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "evidently": {
+    "originalNames": [
+      "evidently"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "evidently.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "execute-api": {
+    "originalNames": [
+      "execute-api"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "execute-api.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "finspace": {
+    "originalNames": [
+      "finspace",
+      "finspace"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/finspace/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "finspace.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "finspace-api": {
+    "originalNames": [
+      "finspace-api"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "finspace-api.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "firehose": {
+    "originalNames": [
+      "firehose"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "firehose.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "fis": {
+    "originalNames": [
+      "faultinjectionservice",
+      "fis"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/fis/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "fis.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "fms": {
+    "originalNames": [
+      "fms"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "fms.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "forecast": {
+    "originalNames": [
+      "forecast"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "forecast.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "frauddetector": {
+    "originalNames": [
+      "frauddetector"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "frauddetector.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "freertos": {
+    "originalNames": [
+      "freertos"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "freertos.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "freetier": {
+    "originalNames": [
+      "freetier"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "freetier.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "fsx": {
+    "originalNames": [
+      "fsx"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "fsx.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "gamelift": {
+    "originalNames": [
+      "gamelift"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "gamelift.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "geo": {
+    "originalNames": [
+      "geo"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "geo.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "geo-maps": {
+    "originalNames": [
+      "geo-maps"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "geo-maps.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "geo-places": {
+    "originalNames": [
+      "geo-places"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "geo-places.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "geo-routes": {
+    "originalNames": [
+      "geo-routes"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "geo-routes.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "glacier": {
+    "originalNames": [
+      "glacier"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "glacier.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "globalaccelerator": {
+    "originalNames": [
+      "globalaccelerator",
+      "globalaccelerator"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/using-service-linked-roles.html",
+    "servicePrincipal": "globalaccelerator.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "glue": {
+    "originalNames": [
+      "glue"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "glue.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "grafana": {
+    "originalNames": [
+      "managedgrafana",
+      "grafana"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/grafana/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "grafana.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "greengrass": {
+    "originalNames": [
+      "greengrass"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "greengrass.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "groundstation": {
+    "originalNames": [
+      "groundstation",
+      "groundstation"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/ground-station/latest/ug/using-service-linked-roles.html",
+    "servicePrincipal": "groundstation.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "groundtruthlabeling": {
+    "originalNames": [
+      "groundtruthlabeling"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "groundtruthlabeling.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "guardduty": {
+    "originalNames": [
+      "guardduty"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "guardduty.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "health": {
+    "originalNames": [
+      "health"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "health.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "healthlake": {
+    "originalNames": [
+      "healthlake"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "healthlake.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "honeycode": {
+    "originalNames": [
+      "honeycode"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "honeycode.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iam": {
+    "originalNames": [
+      "iam"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iam.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "identity-sync": {
+    "originalNames": [
+      "identity-sync"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "identity-sync.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "identitystore": {
+    "originalNames": [
+      "identitystore"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "identitystore.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "identitystore-auth": {
+    "originalNames": [
+      "identitystore-auth"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "identitystore-auth.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "imagebuilder": {
+    "originalNames": [
+      "ec2imagebuilder",
+      "imagebuilder"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/image-builder-service-linked-role.html",
+    "servicePrincipal": "imagebuilder.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "importexport": {
+    "originalNames": [
+      "importexport"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "importexport.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "inspector": {
+    "originalNames": [
+      "inspectorclassic",
+      "inspector"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/inspector/latest/userguide/inspector_slr.html",
+    "servicePrincipal": "inspector.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "inspector-scan": {
+    "originalNames": [
+      "inspector-scan"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "inspector-scan.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "inspector2": {
+    "originalNames": [
+      "inspector2"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "inspector2.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "internetmonitor": {
+    "originalNames": [
+      "internetmonitor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "internetmonitor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "invoicing": {
+    "originalNames": [
+      "invoicing"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "invoicing.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iot": {
+    "originalNames": [
+      "iot"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iot.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iot-device-tester": {
+    "originalNames": [
+      "iot-device-tester"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iot-device-tester.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iot1click": {
+    "originalNames": [
+      "iot1click"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iot1click.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotanalytics": {
+    "originalNames": [
+      "iotanalytics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotanalytics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotdeviceadvisor": {
+    "originalNames": [
+      "iotdeviceadvisor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotdeviceadvisor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotevents": {
+    "originalNames": [
+      "iotevents"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotevents.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotfleethub": {
+    "originalNames": [
+      "iotfleethub"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotfleethub.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotfleetwise": {
+    "originalNames": [
+      "iotfleetwise"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotfleetwise.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotjobsdata": {
+    "originalNames": [
+      "iotjobsdata"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotjobsdata.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotsitewise": {
+    "originalNames": [
+      "iotsitewise"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotsitewise.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iottwinmaker": {
+    "originalNames": [
+      "iottwinmaker",
+      "iottwinmaker"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/iot-twinmaker/latest/guide/using-service-linked-roles.html",
+    "servicePrincipal": "iottwinmaker.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "iotwireless": {
+    "originalNames": [
+      "iotwireless"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iotwireless.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iq": {
+    "originalNames": [
+      "iq"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iq.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "iq-permission": {
+    "originalNames": [
+      "iq-permission"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "iq-permission.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ivs": {
+    "originalNames": [
+      "interactivevideoservice",
+      "ivs"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/ivs/latest/userguide/security-service-linked-roles.html",
+    "servicePrincipal": "ivs.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "ivschat": {
+    "originalNames": [
+      "ivschat"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ivschat.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kafka": {
+    "originalNames": [
+      "kafka"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kafka.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kafka-cluster": {
+    "originalNames": [
+      "kafka-cluster"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kafka-cluster.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kafkaconnect": {
+    "originalNames": [
+      "managedstreamingforkafkaconnect",
+      "kafkaconnect"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/msk/latest/developerguide/mkc-using-service-linked-roles.html",
+    "servicePrincipal": "kafkaconnect.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "kendra": {
+    "originalNames": [
+      "kendra"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kendra.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kendra-ranking": {
+    "originalNames": [
+      "kendra-ranking"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kendra-ranking.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kinesis": {
+    "originalNames": [
+      "kinesis"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kinesis.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kinesisanalytics": {
+    "originalNames": [
+      "kinesisanalytics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kinesisanalytics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kinesisvideo": {
+    "originalNames": [
+      "kinesisvideo"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kinesisvideo.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "kms": {
+    "originalNames": [
+      "kms"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "kms.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "lakeformation": {
+    "originalNames": [
+      "lakeformation",
+      "lakeformation"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/lake-formation/latest/dg/service-linked-roles.html",
+    "servicePrincipal": "lakeformation.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "lambda": {
+    "originalNames": [
+      "lambda"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "lambda.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "launchwizard": {
+    "originalNames": [
+      "launchwizard"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "launchwizard.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "lex": {
+    "originalNames": [
+      "lex",
+      "lex"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/lex/latest/dg/using-service-linked-roles.html",
+    "servicePrincipal": "lex.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "lexv2": {
+    "originalNames": [
+      "lexv2"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/lexv2/latest/dg/using-service-linked-roles.html",
+    "servicePrincipal": "lexv2.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "license-manager": {
+    "originalNames": [
+      "license-manager"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "license-manager.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "license-manager-linux-subscriptions": {
+    "originalNames": [
+      "license-manager-linux-subscriptions"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "license-manager-linux-subscriptions.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "license-manager-user-subscriptions": {
+    "originalNames": [
+      "licensemanagerusersubscriptions",
+      "license-manager-user-subscriptions"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/license-manager/latest/userguide/user-based-subscription-role.html",
+    "servicePrincipal": "license-manager-user-subscriptions.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "lightsail": {
+    "originalNames": [
+      "lightsail",
+      "lightsail"
+    ],
+    "reference_url": "https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-using-service-linked-roles",
+    "servicePrincipal": "lightsail.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "logs": {
+    "originalNames": [
+      "cloudwatchlogs",
+      "logs"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/using-service-linked-roles-cwl.html",
+    "servicePrincipal": "logs.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "lookoutequipment": {
+    "originalNames": [
+      "lookoutequipment"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "lookoutequipment.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "lookoutmetrics": {
+    "originalNames": [
+      "lookoutmetrics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "lookoutmetrics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "lookoutvision": {
+    "originalNames": [
+      "lookoutvision"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "lookoutvision.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "m2": {
+    "originalNames": [
+      "mainframemodernization",
+      "m2"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/m2/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "m2.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "machinelearning": {
+    "originalNames": [
+      "machinelearning"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "machinelearning.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "macie": {
+    "originalNames": [
+      "macie"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/macie/latest/user/service-linked-roles.html",
+    "servicePrincipal": "macie.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "macie2": {
+    "originalNames": [
+      "macie2"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "macie2.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "managedblockchain": {
+    "originalNames": [
+      "managedblockchain"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "managedblockchain.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "managedblockchain-query": {
+    "originalNames": [
+      "managedblockchain-query"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "managedblockchain-query.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mapcredits": {
+    "originalNames": [
+      "mapcredits"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mapcredits.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "marketplacecommerceanalytics": {
+    "originalNames": [
+      "marketplacecommerceanalytics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "marketplacecommerceanalytics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mechanicalturk": {
+    "originalNames": [
+      "mechanicalturk"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mechanicalturk.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediaconnect": {
+    "originalNames": [
+      "mediaconnect"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediaconnect.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediaconvert": {
+    "originalNames": [
+      "mediaconvert"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediaconvert.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediaimport": {
+    "originalNames": [
+      "mediaimport"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediaimport.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "medialive": {
+    "originalNames": [
+      "medialive"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "medialive.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediapackage": {
+    "originalNames": [
+      "mediapackage"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediapackage.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediapackage-vod": {
+    "originalNames": [
+      "mediapackage-vod"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediapackage-vod.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediapackagev2": {
+    "originalNames": [
+      "mediapackagev2"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediapackagev2.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediastore": {
+    "originalNames": [
+      "mediastore"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediastore.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mediatailor": {
+    "originalNames": [
+      "mediatailor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mediatailor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "medical-imaging": {
+    "originalNames": [
+      "medical-imaging"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "medical-imaging.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "memorydb": {
+    "originalNames": [
+      "memorydb",
+      "memorydb"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/MemoryDB/latest/devguide/using-service-linked-roles.html",
+    "servicePrincipal": "memorydb.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "mgh": {
+    "originalNames": [
+      "mgh"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mgh.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mgn": {
+    "originalNames": [
+      "applicationmigrationservice",
+      "mgn"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/mgn/latest/ug/using-service-linked-roles.html",
+    "servicePrincipal": "mgn.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "migrationhub-orchestrator": {
+    "originalNames": [
+      "migrationhuborchestrator",
+      "migrationhub-orchestrator"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/migrationhub-orchestrator/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "migrationhub-orchestrator.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "migrationhub-strategy": {
+    "originalNames": [
+      "migrationhubstrategyrecommendations",
+      "migrationhub-strategy"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/migrationhub-strategy/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "migrationhub-strategy.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "mobileanalytics": {
+    "originalNames": [
+      "mobileanalytics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mobileanalytics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mobiletargeting": {
+    "originalNames": [
+      "mobiletargeting"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mobiletargeting.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "monitron": {
+    "originalNames": [
+      "monitron"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "monitron.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "mq": {
+    "originalNames": [
+      "mq",
+      "mq"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/using-service-linked-roles.html",
+    "servicePrincipal": "mq.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "neptune-db": {
+    "originalNames": [
+      "neptune-db"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "neptune-db.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "neptune-graph": {
+    "originalNames": [
+      "neptune-graph"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "neptune-graph.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "network-firewall": {
+    "originalNames": [
+      "networkfirewall",
+      "network-firewall"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "network-firewall.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "networkflowmonitor": {
+    "originalNames": [
+      "networkflowmonitor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "networkflowmonitor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "networkmanager": {
+    "originalNames": [
+      "networkmanager",
+      "networkmanager"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/vpc/latest/tgw/nm-service-linked-roles.html",
+    "servicePrincipal": "networkmanager.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "networkmanager-chat": {
+    "originalNames": [
+      "networkmanager-chat"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "networkmanager-chat.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "networkmonitor": {
+    "originalNames": [
+      "networkmonitor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "networkmonitor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "nimble": {
+    "originalNames": [
+      "nimble"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "nimble.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "notifications": {
+    "originalNames": [
+      "notifications"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "notifications.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "notifications-contacts": {
+    "originalNames": [
+      "notifications-contacts"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "notifications-contacts.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "oam": {
+    "originalNames": [
+      "oam"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "oam.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "observability": {
+    "originalNames": [
+      "opensearchserverless"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-service-linked-roles.html",
+    "servicePrincipal": "observability.aoss.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "observabilityadmin": {
+    "originalNames": [
+      "observabilityadmin"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "observabilityadmin.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "omics": {
+    "originalNames": [
+      "omics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "omics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "one": {
+    "originalNames": [
+      "one"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "one.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "opensearch": {
+    "originalNames": [
+      "opensearch"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "opensearch.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ops": {
+    "originalNames": [
+      "apigateway",
+      "emrserverless"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "ops.apigateway.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "opsworks": {
+    "originalNames": [
+      "opsworks"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "opsworks.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "opsworks-cm": {
+    "originalNames": [
+      "opsworks-cm"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "opsworks-cm.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "organizations": {
+    "originalNames": [
+      "organizations"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "organizations.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "osis": {
+    "originalNames": [
+      "osis"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "osis.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "outposts": {
+    "originalNames": [
+      "outposts",
+      "outposts"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/outposts/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "outposts.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "panorama": {
+    "originalNames": [
+      "panorama",
+      "panorama"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/panorama/latest/dev/using-service-linked-roles.html",
+    "servicePrincipal": "panorama.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "partnercentral": {
+    "originalNames": [
+      "partnercentral"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "partnercentral.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "partnercentral-account-management": {
+    "originalNames": [
+      "partnercentral-account-management"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "partnercentral-account-management.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "payment-cryptography": {
+    "originalNames": [
+      "payment-cryptography"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "payment-cryptography.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "payments": {
+    "originalNames": [
+      "payments"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "payments.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "pca-connector-ad": {
+    "originalNames": [
+      "pca-connector-ad"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "pca-connector-ad.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "pca-connector-scep": {
+    "originalNames": [
+      "pca-connector-scep"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "pca-connector-scep.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "pcs": {
+    "originalNames": [
+      "parallelcomputingservice",
+      "pcs"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/pcs/latest/userguide/service-linked-roles.html",
+    "servicePrincipal": "pcs.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "permission": {
+    "originalNames": [
+      "iq"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/aws-iq/latest/user-guide/using-service-linked-roles.html",
+    "servicePrincipal": "permission.iq.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "personalize": {
+    "originalNames": [
+      "personalize"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "personalize.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "pi": {
+    "originalNames": [
+      "pi"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "pi.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "pipes": {
+    "originalNames": [
+      "pipes"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "pipes.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "polly": {
+    "originalNames": [
+      "polly"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "polly.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "practice-run": {
+    "originalNames": [
+      "route53recoveryreadiness"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/r53recovery/latest/dg/using-service-linked-roles.html",
+    "servicePrincipal": "practice-run.arc-zonal-shift.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "pricing": {
+    "originalNames": [
+      "pricing"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "pricing.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "private-networks": {
+    "originalNames": [
+      "private-networks"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "private-networks.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "profile": {
+    "originalNames": [
+      "connectcustomerprofiles",
+      "profile"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/connect/latest/adminguide/customerprofiles-slr.html",
+    "servicePrincipal": "profile.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "proton": {
+    "originalNames": [
+      "proton"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "proton.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "purchase-orders": {
+    "originalNames": [
+      "purchase-orders"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "purchase-orders.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "q": {
+    "originalNames": [
+      "q"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "q.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "qapps": {
+    "originalNames": [
+      "qbusinessqapps",
+      "qapps"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/using-service-linked-roles-qapps.html",
+    "servicePrincipal": "qapps.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "qbusiness": {
+    "originalNames": [
+      "qbusiness",
+      "qbusiness"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/using-service-linked-roles.html",
+    "servicePrincipal": "qbusiness.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "qldb": {
+    "originalNames": [
+      "qldb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "qldb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "quicksight": {
+    "originalNames": [
+      "quicksight"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "quicksight.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ram": {
+    "originalNames": [
+      "resourceaccessmanagerawsram",
+      "ram"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/ram/latest/userguide/security-iam-service-linked-roles.html",
+    "servicePrincipal": "ram.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "rbin": {
+    "originalNames": [
+      "rbin"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "rbin.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "rds": {
+    "originalNames": [
+      "neptune",
+      "relationaldatabaseserviceamazonrdsinfo",
+      "rds"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/neptune/latest/userguide/security-iam-service-linked-roles.html",
+    "servicePrincipal": "rds.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "rds-data": {
+    "originalNames": [
+      "rds-data"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "rds-data.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "rds-db": {
+    "originalNames": [
+      "rds-db"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "rds-db.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "redshift": {
+    "originalNames": [
+      "redshift",
+      "redshift"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/redshift/latest/mgmt/using-service-linked-roles.html",
+    "servicePrincipal": "redshift.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "redshift-data": {
+    "originalNames": [
+      "redshift-data"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "redshift-data.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "redshift-serverless": {
+    "originalNames": [
+      "redshift-serverless"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "redshift-serverless.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "refactor-spaces": {
+    "originalNames": [
+      "migrationhubrefactorspaces",
+      "refactor-spaces"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/migrationhub-refactor-spaces/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "refactor-spaces.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "rekognition": {
+    "originalNames": [
+      "rekognition"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "rekognition.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "repository": {
+    "originalNames": [
+      "codestarconnections"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/dtconsole/latest/userguide/service-linked-role-connections.html",
+    "servicePrincipal": "repository.sync.codeconnections.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "repostspace": {
+    "originalNames": [
+      "repostprivate",
+      "repostspace"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/repostprivate/latest/caguide/using-service-linked-roles.html",
+    "servicePrincipal": "repostspace.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "resiliencehub": {
+    "originalNames": [
+      "resiliencehub"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "resiliencehub.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "resource-explorer": {
+    "originalNames": [
+      "resource-explorer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "resource-explorer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "resource-explorer-2": {
+    "originalNames": [
+      "resourceexplorer",
+      "resource-explorer-2"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/resource-explorer/latest/userguide/security_iam_service-linked-roles.html",
+    "servicePrincipal": "resource-explorer-2.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "resource-groups": {
+    "originalNames": [
+      "resource-groups"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "resource-groups.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "resourcegroups": {
+    "originalNames": [
+      "resourcegroups"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/ARG/latest/userguide/security_iam_service-linked-roles.html",
+    "servicePrincipal": "resourcegroups.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "rhelkb": {
+    "originalNames": [
+      "rhelkb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "rhelkb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "robomaker": {
+    "originalNames": [
+      "robomaker",
+      "robomaker"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/robomaker/latest/dg/using-service-linked-roles.html",
+    "servicePrincipal": "robomaker.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "rolesanywhere": {
+    "originalNames": [
+      "identityandaccessmanagementrolesanywhere",
+      "rolesanywhere"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/rolesanywhere/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "rolesanywhere.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "route53": {
+    "originalNames": [
+      "route53"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "route53-recovery-cluster": {
+    "originalNames": [
+      "route53-recovery-cluster"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53-recovery-cluster.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "route53-recovery-control-config": {
+    "originalNames": [
+      "route53-recovery-control-config"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53-recovery-control-config.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "route53-recovery-readiness": {
+    "originalNames": [
+      "route53-recovery-readiness"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53-recovery-readiness.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "route53domains": {
+    "originalNames": [
+      "route53domains"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53domains.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "route53profiles": {
+    "originalNames": [
+      "route53profiles"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53profiles.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "route53resolver": {
+    "originalNames": [
+      "route53resolver"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53resolver.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "rum": {
+    "originalNames": [
+      "rum"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "rum.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "s3": {
+    "originalNames": [
+      "s3"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "s3.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "s3-object-lambda": {
+    "originalNames": [
+      "s3-object-lambda"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "s3-object-lambda.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "s3-outposts": {
+    "originalNames": [
+      "simplestorageserviceamazons3onawsoutposts",
+      "s3-outposts"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/S3OutpostsServiceLinkedRoles.html",
+    "servicePrincipal": "s3-outposts.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "s3express": {
+    "originalNames": [
+      "s3express"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "s3express.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "s3tables": {
+    "originalNames": [
+      "s3tables"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "s3tables.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sagemaker": {
+    "originalNames": [
+      "sagemaker"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sagemaker.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sagemaker-data-science-assistant": {
+    "originalNames": [
+      "sagemaker-data-science-assistant"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sagemaker-data-science-assistant.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sagemaker-geospatial": {
+    "originalNames": [
+      "sagemaker-geospatial"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sagemaker-geospatial.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sagemaker-groundtruth-synthetic": {
+    "originalNames": [
+      "sagemaker-groundtruth-synthetic"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sagemaker-groundtruth-synthetic.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sagemaker-mlflow": {
+    "originalNames": [
+      "sagemaker-mlflow"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sagemaker-mlflow.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "savingsplans": {
+    "originalNames": [
+      "savingsplans"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "savingsplans.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "scheduler": {
+    "originalNames": [
+      "scheduler"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "scheduler.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "schemas": {
+    "originalNames": [
+      "schemas"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "schemas.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "scn": {
+    "originalNames": [
+      "scn"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "scn.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sdb": {
+    "originalNames": [
+      "sdb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sdb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "secretsmanager": {
+    "originalNames": [
+      "secretsmanager"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "secretsmanager.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "security-ir": {
+    "originalNames": [
+      "security-ir"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "security-ir.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "securityhub": {
+    "originalNames": [
+      "securityhub",
+      "securityhub"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/securityhub/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "securityhub.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "securitylake": {
+    "originalNames": [
+      "securitylake"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "securitylake.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "serverlessrepo": {
+    "originalNames": [
+      "serverlessrepo"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "serverlessrepo.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "servicecatalog": {
+    "originalNames": [
+      "servicecatalog"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "servicecatalog.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "servicediscovery": {
+    "originalNames": [
+      "servicediscovery"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "servicediscovery.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "serviceextract": {
+    "originalNames": [
+      "serviceextract"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "serviceextract.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "servicequotas": {
+    "originalNames": [
+      "servicequotas"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "servicequotas.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ses": {
+    "originalNames": [
+      "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
+      "ses"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
+    "servicePrincipal": "ses.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "shield": {
+    "originalNames": [
+      "shield",
+      "shield"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/shd-using-service-linked-roles.html",
+    "servicePrincipal": "shield.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "signer": {
+    "originalNames": [
+      "signer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "signer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "signin": {
+    "originalNames": [
+      "signin"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "signin.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "simspaceweaver": {
+    "originalNames": [
+      "simspaceweaver"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "simspaceweaver.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sms": {
+    "originalNames": [
+      "sms"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sms.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sms-voice": {
+    "originalNames": [
+      "endusermessagingsmsandvoicev2",
+      "sms-voice"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/sms-voice/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "sms-voice.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "snow-device-management": {
+    "originalNames": [
+      "snow-device-management"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "snow-device-management.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "snowball": {
+    "originalNames": [
+      "snowball"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "snowball.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sns": {
+    "originalNames": [
+      "sns"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sns.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "social-messaging": {
+    "originalNames": [
+      "endusermessagingsocial",
+      "social-messaging"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/social-messaging/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "social-messaging.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "sqlworkbench": {
+    "originalNames": [
+      "sqlworkbench"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sqlworkbench.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sqs": {
+    "originalNames": [
+      "sqs"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sqs.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ssm": {
+    "originalNames": [
+      "ssm"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ssm.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ssm-contacts": {
+    "originalNames": [
+      "ssm-contacts"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ssm-contacts.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ssm-guiconnect": {
+    "originalNames": [
+      "ssm-guiconnect"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ssm-guiconnect.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ssm-incidents": {
+    "originalNames": [
+      "systemsmanagerincidentmanager",
+      "ssm-incidents"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/incident-manager/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "ssm-incidents.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "ssm-quicksetup": {
+    "originalNames": [
+      "ssm-quicksetup"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ssm-quicksetup.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ssm-sap": {
+    "originalNames": [
+      "ssm-sap"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ssm-sap.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ssmmessages": {
+    "originalNames": [
+      "ssmmessages"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ssmmessages.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sso": {
+    "originalNames": [
+      "iamidentitycenter",
+      "sso"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "sso.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "sso-directory": {
+    "originalNames": [
+      "sso-directory"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sso-directory.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sso-oauth": {
+    "originalNames": [
+      "sso-oauth"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sso-oauth.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "states": {
+    "originalNames": [
+      "states"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "states.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "storagegateway": {
+    "originalNames": [
+      "storagegateway"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "storagegateway.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sts": {
+    "originalNames": [
+      "sts"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sts.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "support": {
+    "originalNames": [
+      "support",
+      "support"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/awssupport/latest/user/using-service-linked-roles-sup.html",
+    "servicePrincipal": "support.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "supportapp": {
+    "originalNames": [
+      "supportapp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "supportapp.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "supportplans": {
+    "originalNames": [
+      "supportplans"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "supportplans.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "supportrecommendations": {
+    "originalNames": [
+      "supportrecommendations"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "supportrecommendations.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "sustainability": {
+    "originalNames": [
+      "sustainability"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "sustainability.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "swf": {
+    "originalNames": [
+      "swf"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "swf.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "synthetics": {
+    "originalNames": [
+      "synthetics"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "synthetics.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "tag": {
+    "originalNames": [
+      "tag"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "tag.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "tax": {
+    "originalNames": [
+      "tax"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "tax.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "textract": {
+    "originalNames": [
+      "textract"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "textract.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "thinclient": {
+    "originalNames": [
+      "thinclient"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "thinclient.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "timestream": {
+    "originalNames": [
+      "timestream"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "timestream.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "timestream-influxdb": {
+    "originalNames": [
+      "timestream-influxdb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "timestream-influxdb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "tiros": {
+    "originalNames": [
+      "tiros"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "tiros.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "tnb": {
+    "originalNames": [
+      "tnb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "tnb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "transcribe": {
+    "originalNames": [
+      "transcribe"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "transcribe.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "transfer": {
+    "originalNames": [
+      "transfer"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "transfer.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "translate": {
+    "originalNames": [
+      "translate"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "translate.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "triage": {
+    "originalNames": [
+      "securityincidentresponse"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/security-ir/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "triage.security-ir.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "trustedadvisor": {
+    "originalNames": [
+      "trustedadvisor"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "trustedadvisor.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ts": {
+    "originalNames": [
+      "ts"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ts.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "user-subscriptions": {
+    "originalNames": [
+      "user-subscriptions"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "user-subscriptions.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "vendor-insights": {
+    "originalNames": [
+      "vendor-insights"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "vendor-insights.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "verified-access": {
+    "originalNames": [
+      "verified-access"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "verified-access.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "verifiedpermissions": {
+    "originalNames": [
+      "verifiedpermissions"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "verifiedpermissions.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "voiceid": {
+    "originalNames": [
+      "voiceid"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "voiceid.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "vpc-lattice": {
+    "originalNames": [
+      "vpc-lattice"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "vpc-lattice.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "vpc-lattice-svcs": {
+    "originalNames": [
+      "vpc-lattice-svcs"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "vpc-lattice-svcs.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "vpce": {
+    "originalNames": [
+      "vpce"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "vpce.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "vpcorigin": {
+    "originalNames": [
+      "cloudfront"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-service-linked-roles.html",
+    "servicePrincipal": "vpcorigin.cloudfront.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
+  "waf": {
+    "originalNames": [
+      "wafclassic",
+      "wafregional",
+      "waf"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
+    "servicePrincipal": "waf.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "waf-regional": {
+    "originalNames": [
+      "waf-regional"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "waf-regional.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "wafv2": {
+    "originalNames": [
+      "waf",
+      "wafv2"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/using-service-linked-roles.html",
+    "servicePrincipal": "wafv2.amazonaws.com",
+    "sources": [
+      "documentation",
+      "policy_generator"
+    ]
+  },
+  "wam": {
+    "originalNames": [
+      "wam"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "wam.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "wellarchitected": {
+    "originalNames": [
+      "wellarchitected"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "wellarchitected.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "wickr": {
+    "originalNames": [
+      "wickr"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "wickr.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "wisdom": {
+    "originalNames": [
+      "wisdom"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "wisdom.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "workdocs": {
+    "originalNames": [
+      "workdocs"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "workdocs.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "worklink": {
+    "originalNames": [
+      "worklink"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "worklink.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "workmail": {
+    "originalNames": [
+      "workmail"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "workmail.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "workmailmessageflow": {
+    "originalNames": [
+      "workmailmessageflow"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "workmailmessageflow.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "workspaces": {
+    "originalNames": [
+      "workspaces"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "workspaces.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "workspaces-web": {
+    "originalNames": [
+      "workspaces-web"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "workspaces-web.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "xray": {
+    "originalNames": [
+      "xray"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "xray.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  }
+}
