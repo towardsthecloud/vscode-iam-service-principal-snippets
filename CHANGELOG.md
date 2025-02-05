@@ -4,6 +4,13 @@ Changelog
 
 (unreleased)
 ------------
+- Feat(extension): Add debug logging and service principal autocomplete.
+  [Danny Steenman]
+
+
+1.1.0 (2025-02-01)
+------------------
+- Build: auto-update snippets to version: 1.1.0. [Github Actions]
 - Feat: release iam service principal snippets. [Danny Steenman]
 - Feat: add scripts and pipelines. [Danny Steenman]
 - Init. [Danny Steenman]
