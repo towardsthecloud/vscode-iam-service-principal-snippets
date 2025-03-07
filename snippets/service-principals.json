@@ -1556,9 +1556,9 @@
   },
   "email": {
     "originalNames": [
-      "cognitouserpools",
       "cognito",
-      "cognitosync"
+      "cognitosync",
+      "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -1750,6 +1750,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "gamelift.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "gameliftstreams": {
+    "originalNames": [
+      "gameliftstreams"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "gameliftstreams.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -2111,6 +2121,18 @@
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "iotjobsdata.amazonaws.com",
     "sources": [
+      "policy_generator"
+    ]
+  },
+  "iotmanagedintegrations": {
+    "originalNames": [
+      "iotmanagedintegrationsservice",
+      "iotmanagedintegrations"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/iotmanagedintegrations/latest/devguide/using-service-linked-roles.html",
+    "servicePrincipal": "iotmanagedintegrations.amazonaws.com",
+    "sources": [
+      "documentation",
       "policy_generator"
     ]
   },
@@ -3169,6 +3191,16 @@
       "policy_generator"
     ]
   },
+  "qdeveloper": {
+    "originalNames": [
+      "qdeveloper"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "qdeveloper.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "qldb": {
     "originalNames": [
       "qldb"
@@ -3732,8 +3764,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
@@ -4267,11 +4299,13 @@
   },
   "vpc-lattice": {
     "originalNames": [
+      "vpclattice",
       "vpc-lattice"
     ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "reference_url": "https://docs.aws.amazon.com/vpc-lattice/latest/ug/using-service-linked-roles.html",
     "servicePrincipal": "vpc-lattice.amazonaws.com",
     "sources": [
+      "documentation",
       "policy_generator"
     ]
   },
