@@ -3764,8 +3764,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailserviceamazonsesv2",
       "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
