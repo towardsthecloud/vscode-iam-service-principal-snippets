@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1196,16 +1196,6 @@
       "policy_generator"
     ]
   },
-  "deeplens": {
-    "originalNames": [
-      "deeplens"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "deeplens.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
   "deepracer": {
     "originalNames": [
       "deepracer"
@@ -1556,9 +1546,9 @@
   },
   "email": {
     "originalNames": [
-      "cognito",
+      "cognitouserpools",
       "cognitosync",
-      "cognitouserpools"
+      "cognito"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
