@@ -2,6 +2,11 @@ Changelog
 =========
 
 
+1.9.0 (2025-03-21)
+------------------
+- Build: auto-update snippets to version: 1.9.0. [Github Actions]
+
+
 1.8.0 (2025-03-14)
 ------------------
 - Build: auto-update snippets to version: 1.8.0. [Github Actions]
