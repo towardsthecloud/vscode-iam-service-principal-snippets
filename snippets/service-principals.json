@@ -1546,9 +1546,9 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
-      "cognitouserpools"
+      "cognitouserpools",
+      "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
