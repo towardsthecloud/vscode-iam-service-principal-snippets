@@ -3,7 +3,7 @@ import * as path from 'node:path';
 import * as vscode from 'vscode';
 import { type Disposable } from 'vscode';
 
-const DEBUG_ENABLED = true;
+const DEBUG_ENABLED = false;
 export const outputChannel = vscode.window.createOutputChannel('IAM Service Principal Snippets');
 
 function log(message: string) {
@@ -138,13 +138,91 @@ async function isBelowPrincipalKey(document: vscode.TextDocument, position: vsco
   else if (document.languageId === 'terraform') {
     principalRegex = /^\s*Principal\s*=\s*(.*)$/i;
   }
-  // CDK in TypeScript: require property name (assumedBy or principal) then new iam.ServicePrincipal/Principal(...)
+  // CDK in TypeScript: Check for new iam.ServicePrincipal(...) or new iam.Principal(...)
+  // and then look backwards for 'principal:' or 'principals:' key.
   else if (document.languageId === 'typescript') {
-    principalRegex = /(?:assumedBy|principal)\s*:\s*new\s+iam\.(ServicePrincipal|Principal)\s*\(/i;
+    const currentLineNumber = position.line;
+    const currentLineText = document.lineAt(currentLineNumber).text;
+    const constructorRegex = /new\s+iam\.(ServicePrincipal|Principal)\s*\(/;
+    const constructorMatch = currentLineText.match(constructorRegex);
+
+    if (constructorMatch && constructorMatch.index !== undefined) {
+      const constructorStartIndex = constructorMatch.index;
+      const openParenIndex = currentLineText.indexOf('(', constructorStartIndex);
+
+      // Check if cursor is inside the parentheses (or right after the opening paren)
+      if (openParenIndex !== -1 && position.character > openParenIndex) {
+        log(`Cursor potentially inside constructor parens on line ${currentLineNumber}`);
+
+        // Look backwards up to 5 lines for 'principal:' or 'principals:'
+        const maxLinesToSearch = 5;
+        for (let i = 0; i < maxLinesToSearch && currentLineNumber - i >= 0; i++) {
+          const lineNum = currentLineNumber - i;
+          const lineText = document.lineAt(lineNum).text;
+          // Match 'principal:' or 'principals:' at the start of a line (ignoring whitespace), potentially followed by '['
+          const keyRegex = /^\s*(principal|principals)\s*:\s*(\[)?/i;
+          const keyMatch = lineText.match(keyRegex);
+
+          if (keyMatch?.[0]) {
+            log(`Found key '${keyMatch[0].trim()}' on line ${lineNum}, enabling autocomplete`);
+            return true; // Found the key, trigger autocomplete
+          }
+        }
+        log(
+          `Did not find 'principal:' or 'principals:' within ${maxLinesToSearch} lines above line ${currentLineNumber}`,
+        );
+      } else {
+        log(`Cursor not inside constructor parens on line ${currentLineNumber}`);
+      }
+    } else {
+      log(`No iam.ServicePrincipal/Principal constructor found on line ${currentLineNumber}`);
+    }
+    // If TS checks fail, let the generic checks below run, or eventually return false.
+    // We set principalRegex to undefined here so the generic check doesn't run with the old TS regex.
+    principalRegex = undefined;
   }
-  // CDK in Python: require property name (assumed_by or principal) then iam.ServicePrincipal/Principal(...)
+  // CDK in Python: Check for iam.ServicePrincipal(...) or iam.Principal(...)
+  // and then look backwards for 'principal=' or 'assumed_by=' key.
   else if (document.languageId === 'python') {
-    principalRegex = /(?:assumed_by|principal)\s*=\s*iam\.(ServicePrincipal|Principal)\s*\(/i;
+    const currentLineNumber = position.line;
+    const currentLineText = document.lineAt(currentLineNumber).text;
+    // Match iam.ServicePrincipal( or iam.Principal(
+    const constructorRegex = /iam\.(ServicePrincipal|Principal)\s*\(/;
+    const constructorMatch = currentLineText.match(constructorRegex);
+
+    if (constructorMatch && constructorMatch.index !== undefined) {
+      const constructorStartIndex = constructorMatch.index;
+      const openParenIndex = currentLineText.indexOf('(', constructorStartIndex);
+
+      // Check if cursor is inside the parentheses (or right after the opening paren)
+      if (openParenIndex !== -1 && position.character > openParenIndex) {
+        log(`Cursor potentially inside constructor parens on line ${currentLineNumber}`);
+
+        // Look backwards up to 5 lines for 'principal=' or 'assumed_by='
+        const maxLinesToSearch = 5;
+        for (let i = 0; i < maxLinesToSearch && currentLineNumber - i >= 0; i++) {
+          const lineNum = currentLineNumber - i;
+          const lineText = document.lineAt(lineNum).text;
+          // Match 'principal=', 'principals=' or 'assumed_by=' at the start of a line (ignoring whitespace)
+          const keyRegex = /^\s*(principals?|assumed_by)\s*=/i; // Added 's?' to principal
+          const keyMatch = lineText.match(keyRegex);
+
+          if (keyMatch?.[0]) {
+            log(`Found key '${keyMatch[0].trim()}' on line ${lineNum}, enabling autocomplete`);
+            return true; // Found the key, trigger autocomplete
+          }
+        }
+        log(
+          `Did not find 'principal(s)=' or 'assumed_by=' within ${maxLinesToSearch} lines above line ${currentLineNumber}`,
+        );
+      } else {
+        log(`Cursor not inside constructor parens on line ${currentLineNumber}`);
+      }
+    } else {
+      log(`No iam.ServicePrincipal/Principal constructor found on line ${currentLineNumber}`);
+    }
+    // Prevent the generic check below from running for Python
+    principalRegex = undefined;
   }
 
   if (principalRegex) {
