@@ -4,6 +4,15 @@ Changelog
 
 (unreleased)
 ------------
+
+Fix
+~~~
+- Improve ts and python principal detection. [Danny Steenman]
+
+
+1.13.0 (2025-04-17)
+-------------------
+- Build: auto-update snippets to version: 1.13.0. [Github Actions]
 - Chore: update repository links to reflect new ownership by
   'towardsthecloud' [Danny Steenman]
 
