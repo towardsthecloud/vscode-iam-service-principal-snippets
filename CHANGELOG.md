@@ -2,12 +2,16 @@ Changelog
 =========
 
 
-(unreleased)
-------------
+1.14.0 (2025-04-18)
+-------------------
 
 Fix
 ~~~
 - Improve ts and python principal detection. [Danny Steenman]
+
+Other
+~~~~~
+- Build: auto-update snippets to version: 1.14.0. [Github Actions]
 
 
 1.13.0 (2025-04-17)
