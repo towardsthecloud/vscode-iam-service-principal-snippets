@@ -2,6 +2,11 @@ Changelog
 =========
 
 
+1.15.0 (2025-04-18)
+-------------------
+- Build: auto-update snippets to version: 1.15.0. [Github Actions]
+
+
 1.14.0 (2025-04-18)
 -------------------
 

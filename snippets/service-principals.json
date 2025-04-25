@@ -4331,8 +4331,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafclassic",
       "wafregional",
+      "wafclassic",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
