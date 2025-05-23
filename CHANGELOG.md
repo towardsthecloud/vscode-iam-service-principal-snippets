@@ -7,6 +7,12 @@ Changelog
 - Chore: update readme. [Danny Steenman]
 
 
+1.19.0 (2025-05-16)
+-------------------
+- Build: auto-update snippets to version: 1.19.0. [Github Actions]
+- Chore: update readme. [Danny Steenman]
+
+
 1.18.0 (2025-05-09)
 -------------------
 - Build: auto-update snippets to version: 1.18.0. [Github Actions]

@@ -4257,6 +4257,16 @@
       "policy_generator"
     ]
   },
+  "uxc": {
+    "originalNames": [
+      "uxc"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "uxc.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "vendor-insights": {
     "originalNames": [
       "vendor-insights"
