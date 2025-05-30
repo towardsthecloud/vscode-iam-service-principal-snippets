@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -740,13 +740,11 @@
   },
   "cloudtrail": {
     "originalNames": [
-      "cloudtrail",
       "cloudtrail"
     ],
-    "reference_url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/using-service-linked-roles.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "cloudtrail.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -3590,16 +3588,6 @@
       "policy_generator"
     ]
   },
-  "sagemaker-groundtruth-synthetic": {
-    "originalNames": [
-      "sagemaker-groundtruth-synthetic"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "sagemaker-groundtruth-synthetic.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
   "sagemaker-mlflow": {
     "originalNames": [
       "sagemaker-mlflow"
@@ -3754,8 +3742,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailserviceamazonsesv2",
       "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
@@ -4351,8 +4339,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafregional",
       "wafclassic",
+      "wafregional",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",

@@ -2,8 +2,9 @@ Changelog
 =========
 
 
-(unreleased)
-------------
+1.20.0 (2025-05-23)
+-------------------
+- Build: auto-update snippets to version: 1.20.0. [Github Actions]
 - Chore: update readme. [Danny Steenman]
 
 
