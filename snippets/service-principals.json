@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1613,6 +1613,18 @@
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "evidently.amazonaws.com",
     "sources": [
+      "policy_generator"
+    ]
+  },
+  "evs": {
+    "originalNames": [
+      "elasticvmwareservice",
+      "evs"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/evs/latest/userguide/using-service-linked-roles.html",
+    "servicePrincipal": "evs.amazonaws.com",
+    "sources": [
+      "documentation",
       "policy_generator"
     ]
   },
@@ -4446,6 +4458,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "workspaces.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "workspaces-instances": {
+    "originalNames": [
+      "workspaces-instances"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "workspaces-instances.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
