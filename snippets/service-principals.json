@@ -2720,6 +2720,16 @@
       "policy_generator"
     ]
   },
+  "mpa": {
+    "originalNames": [
+      "mpa"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "mpa.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "mq": {
     "originalNames": [
       "mq",
@@ -4035,6 +4045,16 @@
       "policy_generator"
     ]
   },
+  "support-console": {
+    "originalNames": [
+      "support-console"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "support-console.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "supportapp": {
     "originalNames": [
       "supportapp"
@@ -4339,8 +4359,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafregional",
       "wafclassic",
+      "wafregional",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
