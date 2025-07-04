@@ -1542,9 +1542,9 @@
   },
   "email": {
     "originalNames": [
+      "cognitouserpools",
       "cognito",
-      "cognitosync",
-      "cognitouserpools"
+      "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -2876,6 +2876,16 @@
       "policy_generator"
     ]
   },
+  "odb": {
+    "originalNames": [
+      "odb"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "odb.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "omics": {
     "originalNames": [
       "omics"
@@ -3762,8 +3772,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailserviceamazonsesv2",
       "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
