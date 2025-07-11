@@ -1542,9 +1542,9 @@
   },
   "email": {
     "originalNames": [
-      "cognitouserpools",
       "cognito",
-      "cognitosync"
+      "cognitosync",
+      "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -2771,6 +2771,16 @@
     "servicePrincipal": "network-firewall.amazonaws.com",
     "sources": [
       "documentation",
+      "policy_generator"
+    ]
+  },
+  "network-security-director": {
+    "originalNames": [
+      "network-security-director"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "network-security-director.amazonaws.com",
+    "sources": [
       "policy_generator"
     ]
   },
