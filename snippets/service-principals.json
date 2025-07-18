@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -530,6 +530,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "bedrock.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bedrock-agentcore": {
+    "originalNames": [
+      "bedrock-agentcore"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bedrock-agentcore.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -1543,8 +1553,8 @@
   "email": {
     "originalNames": [
       "cognito",
-      "cognitosync",
-      "cognitouserpools"
+      "cognitouserpools",
+      "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -3598,6 +3608,16 @@
       "policy_generator"
     ]
   },
+  "s3vectors": {
+    "originalNames": [
+      "s3vectors"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "s3vectors.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "sagemaker": {
     "originalNames": [
       "sagemaker"
@@ -4091,16 +4111,6 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "supportplans.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
-  "supportrecommendations": {
-    "originalNames": [
-      "supportrecommendations"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "supportrecommendations.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
