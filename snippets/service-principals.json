@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -322,6 +322,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "aps.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "arc-region-switch": {
+    "originalNames": [
+      "arc-region-switch"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "arc-region-switch.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -494,13 +504,11 @@
   },
   "batch": {
     "originalNames": [
-      "batch",
       "batch"
     ],
-    "reference_url": "https://docs.aws.amazon.com/batch/latest/userguide/using-service-linked-roles.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "batch.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -566,13 +574,11 @@
   },
   "braket": {
     "originalNames": [
-      "braket",
       "braket"
     ],
-    "reference_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-slr.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "braket.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -1552,9 +1558,9 @@
   },
   "email": {
     "originalNames": [
-      "cognito",
       "cognitosync",
-      "cognitouserpools"
+      "cognitouserpools",
+      "cognito"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -3802,8 +3808,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
