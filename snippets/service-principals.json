@@ -235,8 +235,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -528,6 +528,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "bcm-pricing-calculator.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bcm-recommended-actions": {
+    "originalNames": [
+      "bcm-recommended-actions"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bcm-recommended-actions.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -1560,9 +1570,9 @@
   },
   "email": {
     "originalNames": [
-      "cognito",
+      "cognitosync",
       "cognitouserpools",
-      "cognitosync"
+      "cognito"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -4309,6 +4319,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "user-subscriptions.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "uxc": {
+    "originalNames": [
+      "uxc"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "uxc.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
