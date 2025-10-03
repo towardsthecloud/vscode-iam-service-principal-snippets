@@ -193,16 +193,6 @@
       "policy_generator"
     ]
   },
-  "application-cost-profiler": {
-    "originalNames": [
-      "application-cost-profiler"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "application-cost-profiler.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
   "application-signals": {
     "originalNames": [
       "application-signals"
@@ -1442,13 +1432,11 @@
   },
   "ecs": {
     "originalNames": [
-      "elasticcontainerserviceamazonecs",
       "ecs"
     ],
-    "reference_url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using-service-linked-roles.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "ecs.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -1580,9 +1568,9 @@
   },
   "email": {
     "originalNames": [
-      "cognito",
+      "cognitosync",
       "cognitouserpools",
-      "cognitosync"
+      "cognito"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -2086,16 +2074,6 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "iot-device-tester.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
-  "iot1click": {
-    "originalNames": [
-      "iot1click"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "iot1click.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -3828,8 +3806,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
