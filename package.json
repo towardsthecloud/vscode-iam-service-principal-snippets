@@ -3,7 +3,7 @@
   "displayName": "AWS IAM Service Principal Snippets",
   "description": "This VS Code extension provides autocompletion of all AWS services that can be used as Service Principals in your IAM policies.",
   "author": "Danny Steenman",
-  "version": "1.39.0",
+  "version": "1.40.0",
   "publisher": "dannysteenman",
   "icon": "images/iam-service-principal-snippets-extension-icon.png",
   "homepage": "https://towardsthecloud.com",
