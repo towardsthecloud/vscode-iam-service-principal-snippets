@@ -1578,8 +1578,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitouserpools",
       "cognito",
+      "cognitouserpools",
       "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -4425,8 +4425,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafregional",
       "wafclassic",
+      "wafregional",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
