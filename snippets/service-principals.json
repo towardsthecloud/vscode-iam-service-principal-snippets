@@ -101,6 +101,16 @@
       "policy_generator"
     ]
   },
+  "airflow-serverless": {
+    "originalNames": [
+      "airflow-serverless"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "airflow-serverless.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "amplify": {
     "originalNames": [
       "amplify"
@@ -235,8 +245,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1466,6 +1476,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "eks-auth.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "eks-mcp": {
+    "originalNames": [
+      "eks-mcp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "eks-mcp.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -3169,6 +3189,16 @@
       "policy_generator"
     ]
   },
+  "pricingplanmanager": {
+    "originalNames": [
+      "pricingplanmanager"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "pricingplanmanager.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "private-networks": {
     "originalNames": [
       "private-networks"
@@ -3838,8 +3868,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
