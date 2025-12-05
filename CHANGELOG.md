@@ -7,6 +7,12 @@ Changelog
 - Update README.md. [Danny Steenman]
 
 
+1.47.0 (2025-11-28)
+-------------------
+- Build: auto-update snippets to version: 1.47.0. [Github Actions]
+- Update README.md. [Danny Steenman]
+
+
 1.46.0 (2025-11-21)
 -------------------
 - Build: auto-update snippets to version: 1.46.0. [Github Actions]

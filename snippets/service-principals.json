@@ -81,6 +81,16 @@
       "policy_generator"
     ]
   },
+  "aidevops": {
+    "originalNames": [
+      "aidevops"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aidevops.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "aiops": {
     "originalNames": [
       "aiops"
@@ -245,8 +255,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -442,6 +452,16 @@
       "policy_generator"
     ]
   },
+  "aws-mcp": {
+    "originalNames": [
+      "aws-mcp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aws-mcp.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "aws-portal": {
     "originalNames": [
       "aws-portal"
@@ -578,6 +598,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "bedrock-agentcore.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bedrock-mantle": {
+    "originalNames": [
+      "bedrock-mantle"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bedrock-mantle.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -3570,6 +3600,16 @@
       "policy_generator"
     ]
   },
+  "route53globalresolver": {
+    "originalNames": [
+      "route53globalresolver"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "route53globalresolver.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "route53profiles": {
     "originalNames": [
       "route53profiles"
@@ -3790,6 +3830,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "security-ir.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "securityagent": {
+    "originalNames": [
+      "securityagent"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "securityagent.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -4321,6 +4371,16 @@
       "policy_generator"
     ]
   },
+  "transform-custom": {
+    "originalNames": [
+      "transform-custom"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "transform-custom.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "translate": {
     "originalNames": [
       "translate"
@@ -4465,8 +4525,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafregional",
       "wafclassic",
+      "wafregional",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
