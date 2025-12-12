@@ -61,6 +61,16 @@
       "policy_generator"
     ]
   },
+  "aco-automation": {
+    "originalNames": [
+      "aco-automation"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "aco-automation.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "action-recommendations": {
     "originalNames": [
       "action-recommendations"
@@ -1258,16 +1268,6 @@
       "policy_generator"
     ]
   },
-  "deepcomposer": {
-    "originalNames": [
-      "deepcomposer"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "deepcomposer.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
   "deepracer": {
     "originalNames": [
       "deepracer"
@@ -1629,8 +1629,8 @@
   "email": {
     "originalNames": [
       "cognito",
-      "cognitouserpools",
-      "cognitosync"
+      "cognitosync",
+      "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -2932,6 +2932,16 @@
       "policy_generator"
     ]
   },
+  "nova-act": {
+    "originalNames": [
+      "nova-act"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "nova-act.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "oam": {
     "originalNames": [
       "oam"
@@ -3846,7 +3856,7 @@
   },
   "securityhub": {
     "originalNames": [
-      "securityhub",
+      "securityhubcspm",
       "securityhub"
     ],
     "reference_url": "https://docs.aws.amazon.com/securityhub/latest/userguide/using-service-linked-roles.html",
