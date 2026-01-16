@@ -265,8 +265,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1486,6 +1486,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "ecs.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "ecs-mcp": {
+    "originalNames": [
+      "ecs-mcp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "ecs-mcp.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -3928,8 +3938,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
