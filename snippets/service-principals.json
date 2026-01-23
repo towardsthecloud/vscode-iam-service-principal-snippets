@@ -1268,16 +1268,6 @@
       "policy_generator"
     ]
   },
-  "deepracer": {
-    "originalNames": [
-      "deepracer"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "deepracer.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
   "detective": {
     "originalNames": [
       "detective"
@@ -3938,8 +3928,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailserviceamazonsesv2",
       "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
