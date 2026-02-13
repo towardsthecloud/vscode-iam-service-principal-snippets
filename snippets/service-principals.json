@@ -265,8 +265,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -2094,6 +2094,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "inspector2.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "inspector2-telemetry": {
+    "originalNames": [
+      "inspector2-telemetry"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "inspector2-telemetry.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
