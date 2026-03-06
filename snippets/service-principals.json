@@ -1994,6 +1994,16 @@
       "policy_generator"
     ]
   },
+  "health-agent": {
+    "originalNames": [
+      "health-agent"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "health-agent.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "healthlake": {
     "originalNames": [
       "healthlake"
@@ -3367,13 +3377,11 @@
   },
   "ram": {
     "originalNames": [
-      "resourceaccessmanagerawsram",
       "ram"
     ],
-    "reference_url": "https://docs.aws.amazon.com/ram/latest/userguide/security-iam-service-linked-roles.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "ram.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -4555,8 +4563,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafregional",
       "wafclassic",
+      "wafregional",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
