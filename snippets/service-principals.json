@@ -1638,9 +1638,9 @@
   },
   "email": {
     "originalNames": [
-      "cognitouserpools",
       "cognito",
-      "cognitosync"
+      "cognitosync",
+      "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -2124,6 +2124,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "inspector2-telemetry.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "interconnect": {
+    "originalNames": [
+      "interconnect"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "interconnect.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
