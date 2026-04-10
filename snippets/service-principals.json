@@ -265,8 +265,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1648,8 +1648,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
+      "cognitosync",
       "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -3105,11 +3105,13 @@
   },
   "osis": {
     "originalNames": [
+      "opensearchingestion",
       "osis"
     ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "reference_url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/slr-osis.html",
     "servicePrincipal": "osis.amazonaws.com",
     "sources": [
+      "documentation",
       "policy_generator"
     ]
   },
@@ -3748,6 +3750,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "s3express.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "s3files": {
+    "originalNames": [
+      "s3files"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "s3files.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
