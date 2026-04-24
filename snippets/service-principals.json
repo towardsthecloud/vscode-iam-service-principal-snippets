@@ -1648,8 +1648,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitouserpools",
       "cognito",
+      "cognitouserpools",
       "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -2460,13 +2460,11 @@
   },
   "lex": {
     "originalNames": [
-      "lex",
       "lex"
     ],
-    "reference_url": "https://docs.aws.amazon.com/lex/latest/dg/using-service-linked-roles.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "lex.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -3988,8 +3986,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
