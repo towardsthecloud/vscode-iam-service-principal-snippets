@@ -253,6 +253,16 @@
       "policy_generator"
     ]
   },
+  "application-signals-mcp": {
+    "originalNames": [
+      "application-signals-mcp"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "application-signals-mcp.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "application-transformation": {
     "originalNames": [
       "application-transformation"
@@ -275,8 +285,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -478,16 +488,6 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "aws-marketplace-management.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
-  "aws-mcp": {
-    "originalNames": [
-      "aws-mcp"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "aws-mcp.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -3534,6 +3534,16 @@
       "policy_generator"
     ]
   },
+  "researchstudio": {
+    "originalNames": [
+      "researchstudio"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "researchstudio.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "resiliencehub": {
     "originalNames": [
       "resiliencehub"
@@ -3904,11 +3914,13 @@
   },
   "security-ir": {
     "originalNames": [
+      "securityincidentresponse",
       "security-ir"
     ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "reference_url": "https://docs.aws.amazon.com/security-ir/latest/userguide/using-service-linked-roles.html",
     "servicePrincipal": "security-ir.amazonaws.com",
     "sources": [
+      "documentation",
       "policy_generator"
     ]
   },
@@ -4467,16 +4479,6 @@
     "servicePrincipal": "translate.amazonaws.com",
     "sources": [
       "policy_generator"
-    ]
-  },
-  "triage": {
-    "originalNames": [
-      "securityincidentresponse"
-    ],
-    "reference_url": "https://docs.aws.amazon.com/security-ir/latest/userguide/using-service-linked-roles.html",
-    "servicePrincipal": "triage.security-ir.amazonaws.com",
-    "sources": [
-      "documentation"
     ]
   },
   "trustedadvisor": {
