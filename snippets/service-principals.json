@@ -285,8 +285,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1658,8 +1658,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
+      "cognitosync",
       "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -1750,6 +1750,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "execute-api.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "finops-agent": {
+    "originalNames": [
+      "finops-agent"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "finops-agent.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -2790,7 +2800,7 @@
   },
   "mgn": {
     "originalNames": [
-      "applicationmigrationservice",
+      "transformmgn",
       "mgn"
     ],
     "reference_url": "https://docs.aws.amazon.com/mgn/latest/ug/using-service-linked-roles.html",
@@ -3998,8 +4008,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailserviceamazonsesv2",
       "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
