@@ -1722,6 +1722,16 @@
       "policy_generator"
     ]
   },
+  "eventsbilltoaws": {
+    "originalNames": [
+      "eventsbilltoaws"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "eventsbilltoaws.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "evidently": {
     "originalNames": [
       "evidently"
