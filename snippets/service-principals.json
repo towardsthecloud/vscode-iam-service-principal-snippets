@@ -1658,8 +1658,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
+      "cognitosync",
       "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
