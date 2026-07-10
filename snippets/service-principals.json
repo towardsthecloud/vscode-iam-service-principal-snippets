@@ -1104,13 +1104,11 @@
   },
   "config": {
     "originalNames": [
-      "config",
       "config"
     ],
-    "reference_url": "https://docs.aws.amazon.com/config/latest/developerguide/using-service-linked-roles.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "config.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
@@ -1658,9 +1656,9 @@
   },
   "email": {
     "originalNames": [
-      "cognito",
       "cognitosync",
-      "cognitouserpools"
+      "cognitouserpools",
+      "cognito"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -4018,8 +4016,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailservicemailmanager",
       "simpleemailserviceamazonsesv2",
+      "simpleemailservicemailmanager",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
@@ -4317,6 +4315,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "supportapp.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "supportauthz": {
+    "originalNames": [
+      "supportauthz"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "supportauthz.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
