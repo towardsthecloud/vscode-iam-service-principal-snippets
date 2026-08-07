@@ -91,6 +91,16 @@
       "policy_generator"
     ]
   },
+  "agent-registry": {
+    "originalNames": [
+      "agent-registry"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "agent-registry.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "agentaccess-mcp": {
     "originalNames": [
       "agentaccess-mcp"
@@ -285,8 +295,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -638,6 +648,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "bedrock-mantle.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "bedrock-websearch": {
+    "originalNames": [
+      "bedrock-websearch"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "bedrock-websearch.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -4016,8 +4036,8 @@
   },
   "ses": {
     "originalNames": [
-      "simpleemailserviceamazonsesv2",
       "simpleemailservicemailmanager",
+      "simpleemailserviceamazonsesv2",
       "ses"
     ],
     "reference_url": "https://docs.aws.amazon.com/ses/latest/dg/using-service-linked-roles.html",
