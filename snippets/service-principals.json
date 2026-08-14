@@ -39,6 +39,16 @@
       "policy_generator"
     ]
   },
+  "account-access": {
+    "originalNames": [
+      "account-access"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "account-access.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
   "acm": {
     "originalNames": [
       "certificatemanageracm",
@@ -295,8 +305,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1676,8 +1686,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
+      "cognitosync",
       "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -3255,16 +3265,6 @@
     "sources": [
       "documentation",
       "policy_generator"
-    ]
-  },
-  "permission": {
-    "originalNames": [
-      "iq"
-    ],
-    "reference_url": "https://docs.aws.amazon.com/aws-iq/latest/user-guide/using-service-linked-roles.html",
-    "servicePrincipal": "permission.iq.amazonaws.com",
-    "sources": [
-      "documentation"
     ]
   },
   "personalize": {
