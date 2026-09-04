@@ -2,6 +2,11 @@ Changelog
 =========
 
 
+1.85.0 (2026-08-28)
+-------------------
+- Build: auto-update snippets to version: 1.85.0. [Github Actions]
+
+
 1.84.0 (2026-08-21)
 -------------------
 - Build: auto-update snippets to version: 1.84.0. [Github Actions]
