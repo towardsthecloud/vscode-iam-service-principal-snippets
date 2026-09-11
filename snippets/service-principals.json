@@ -1686,8 +1686,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitosync",
       "cognito",
+      "cognitosync",
       "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -2156,13 +2156,11 @@
   },
   "inspector": {
     "originalNames": [
-      "inspectorclassic",
       "inspector"
     ],
-    "reference_url": "https://docs.aws.amazon.com/inspector/latest/userguide/inspector_slr.html",
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "inspector.amazonaws.com",
     "sources": [
-      "documentation",
       "policy_generator"
     ]
   },
