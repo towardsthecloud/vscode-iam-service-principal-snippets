@@ -305,8 +305,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmesh",
       "appmeshpreview",
+      "appmesh",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1686,8 +1686,8 @@
   },
   "email": {
     "originalNames": [
-      "cognitouserpools",
       "cognito",
+      "cognitouserpools",
       "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
@@ -2960,6 +2960,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "network-security-director.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "network-security-manager": {
+    "originalNames": [
+      "network-security-manager"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "network-security-manager.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -4641,8 +4651,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafregional",
       "wafclassic",
+      "wafregional",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
