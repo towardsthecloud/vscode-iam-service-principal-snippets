@@ -305,8 +305,8 @@
   },
   "appmesh": {
     "originalNames": [
-      "appmeshpreview",
       "appmesh",
+      "appmeshpreview",
       "appmesh"
     ],
     "reference_url": "https://docs.aws.amazon.com/app-mesh/latest/userguide/using-service-linked-roles.html",
@@ -1687,8 +1687,8 @@
   "email": {
     "originalNames": [
       "cognito",
-      "cognitouserpools",
-      "cognitosync"
+      "cognitosync",
+      "cognitouserpools"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -1756,16 +1756,6 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "eventsbilltoaws.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
-  "evidently": {
-    "originalNames": [
-      "evidently"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "evidently.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -2260,16 +2250,6 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "iotdeviceadvisor.amazonaws.com",
-    "sources": [
-      "policy_generator"
-    ]
-  },
-  "iotevents": {
-    "originalNames": [
-      "iotevents"
-    ],
-    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
-    "servicePrincipal": "iotevents.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -4281,6 +4261,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "sso-oauth.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "startups": {
+    "originalNames": [
+      "startups"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "startups.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
