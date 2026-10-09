@@ -3,7 +3,7 @@
   "displayName": "AWS IAM Service Principal Snippets",
   "description": "Context-aware completions for documented AWS IAM service principals in JSON, YAML, Terraform and AWS CDK.",
   "author": "Danny Steenman",
-  "version": "1.91.0",
+  "version": "1.92.0",
   "publisher": "dannysteenman",
   "icon": "images/iam-service-principal-snippets-extension-icon.png",
   "homepage": "https://towardsthecloud.com",

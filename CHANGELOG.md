@@ -1,8 +1,8 @@
 Changelog
 =========
 
-Unreleased
-----------
+1.92.0 (2026-10-09)
+-------------------
 - Fix completion context and hostname replacement in JSON, JSONC, YAML, Terraform, TypeScript, TSX, Python, and CloudFormation `.template` files.
 - Replace inferred catalog entries with literal principals backed by AWS documentation; retain distinct full hostnames and source references. Coverage is limited to the indexed and curated documentation sources.
 - Recover from failed catalog loads, dispose extension resources, honor cancellation, and cache document parsing and principal documentation.
