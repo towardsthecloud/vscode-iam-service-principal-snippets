@@ -38,6 +38,9 @@ test('recovers after a missing or invalid catalog without restarting VS Code', a
   });
 
 const insertions = [
+  ['JSON unfinished quote before braces', 'json', '{"Principal":{"Service":"|}}', '{"Principal":{"Service":"lambda.amazonaws.com"}}'],
+  ['JSON unfinished hostname before braces', 'json', '{"Principal":{"Service":"lam|.amazonaws.com}}', '{"Principal":{"Service":"lambda.amazonaws.com"}}'],
+  ['TypeScript unfinished quote before delimiters', 'typescript', 'const p = new ServicePrincipal("lam|);', 'const p = new ServicePrincipal("lambda.amazonaws.com");'],
   ['JSON service array', 'json', '{"Principal":{"Service":["s3.amazonaws.com","lam|"]}}', '{"Principal":{"Service":["s3.amazonaws.com","lambda.amazonaws.com"]}}'],
   ['JSON unquoted value', 'json', '{"Principal":{"Service": |}}', '{"Principal":{"Service": "lambda.amazonaws.com"}}'],
   ['JSON unfinished quote', 'json', '{"Principal":{"Service":"lam|', '{"Principal":{"Service":"lambda.amazonaws.com"'],

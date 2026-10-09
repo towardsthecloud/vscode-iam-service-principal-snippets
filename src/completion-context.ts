@@ -120,7 +120,12 @@ export function completionContext(
   }
   if (!relevant || (token?.quote && (token.quote === '`' || token.quote.length > 1))) return;
   const start = inside ? token.start + (token.quote ? 1 : 0) : offset;
-  const end = inside ? token.end - (token.quote && token.closed ? 1 : 0) : offset;
+  let end = inside ? token.end - (token.quote && token.closed ? 1 : 0) : offset;
+  if (inside && token.quote && !token.closed) {
+    // An unfinished hostname must not consume the syntax following it.
+    end = start + /^[\w.-]*/.exec(token.text)![0].length;
+    if (offset > end) return;
+  }
   return {
     range: new vscode.Range(document.positionAt(start), document.positionAt(end)),
     prefix: token?.quote && inside ? '' : snapshot.format === 'yaml' ? '' : '"',
