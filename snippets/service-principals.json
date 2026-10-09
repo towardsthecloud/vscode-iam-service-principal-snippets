@@ -1687,8 +1687,8 @@
   "email": {
     "originalNames": [
       "cognito",
-      "cognitosync",
-      "cognitouserpools"
+      "cognitouserpools",
+      "cognitosync"
     ],
     "reference_url": "https://docs.aws.amazon.com/cognito/latest/developerguide/using-service-linked-roles.html",
     "servicePrincipal": "email.cognito-idp.amazonaws.com",
@@ -1714,6 +1714,16 @@
     ],
     "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
     "servicePrincipal": "emr-serverless.amazonaws.com",
+    "sources": [
+      "policy_generator"
+    ]
+  },
+  "end-user-messaging": {
+    "originalNames": [
+      "end-user-messaging"
+    ],
+    "reference_url": "https://awspolicygen.s3.amazonaws.com/js/policies.js",
+    "servicePrincipal": "end-user-messaging.amazonaws.com",
     "sources": [
       "policy_generator"
     ]
@@ -4641,8 +4651,8 @@
   },
   "waf": {
     "originalNames": [
-      "wafclassic",
       "wafregional",
+      "wafclassic",
       "waf"
     ],
     "reference_url": "https://docs.aws.amazon.com/waf/latest/developerguide/classic-using-service-linked-roles.html",
