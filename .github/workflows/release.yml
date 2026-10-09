@@ -1,0 +1,52 @@
+name: Release validated extension
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+concurrency:
+  group: extension-release
+  cancel-in-progress: false
+jobs:
+  validate:
+    uses: ./.github/workflows/ci.yml
+  publish:
+    needs: validate
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        registry: [marketplace, open-vsx]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Check release version and main ancestry
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          test "$RELEASE_TAG" = "v$(node -p 'require("./package.json").version')"
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+      - run: npm ci
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: extension-package
+      - name: Publish to Visual Studio Marketplace
+        if: matrix.registry == 'marketplace'
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
+        run: npx --no-install vsce publish --packagePath extension.vsix
+      - name: Publish to Open VSX
+        if: matrix.registry == 'open-vsx'
+        env:
+          OVSX_PAT: ${{ secrets.OPEN_VSX_TOKEN }}
+        run: |
+          curl --fail --silent --show-error --request POST \
+            --header 'Content-Type: application/octet-stream' \
+            --data-binary @extension.vsix --url-query "token=$OVSX_PAT" \
+            --output publish-response.json https://open-vsx.org/api/-/publish
+          jq -e '.error | not' publish-response.json

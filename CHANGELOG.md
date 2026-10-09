@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Unreleased
+----------
+- Fix completion context and hostname replacement in JSON, JSONC, YAML, Terraform, TypeScript, TSX, Python, and CloudFormation `.template` files.
+- Replace inferred catalog entries with literal principals backed by AWS documentation; retain distinct full hostnames and source references. Coverage is limited to the indexed and curated documentation sources.
+- Recover from failed catalog loads, dispose extension resources, honor cancellation, and cache document parsing and principal documentation.
+- Add VS Code minimum/stable integration tests, updater regression tests, deterministic dependencies, and VSIX validation.
+- Replace automatic weekly publishing with reviewed catalog proposals and validated tag releases. Require VS Code 1.85 or newer.
+
 
 1.89.0 (2026-09-25)
 -------------------

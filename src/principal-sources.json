@@ -1,0 +1,70 @@
+{
+  "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html": [
+    "ecs-tasks.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/using-service-linked-roles.html": [
+    "elasticache.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/AmazonS3/latest/userguide/setting-repl-config-perm-overview.html": [
+    "s3.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2.html": [
+    "ec2.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html": [
+    "ecs.amazonaws.com",
+    "elasticloadbalancing.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/MemoryDB/latest/devguide/using-service-linked-roles.html": [
+    "memorydb.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/using-service-linked-roles.html": [
+    "qbusiness.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/aws-backup/latest/devguide/backing-up-vms.html": [
+    "backup.amazonaws.com",
+    "backup-gateway.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_iam/ServicePrincipal.html": [
+    "sqs.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-create-pipeline.html": [
+    "codepipeline.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/codebuild/latest/userguide/setting-up-service-role.html": [
+    "codebuild.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-service-role.html": [
+    "codedeploy.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-use-resource-based.html": [
+    "events.amazonaws.com",
+    "delivery.logs.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/firehose/latest/dev/controlling-access.html": [
+    "firehose.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html": [
+    "lambda.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/license-manager/latest/userguide/user-based-subscription-role.html": [
+    "license-manager-user-subscriptions.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/prescriptive-guidance/latest/least-privilege-cloudformation/service-roles-for-cloudformation.html": [
+    "cloudformation.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/sagemaker/latest/dg/feature-store-feature-processor-iam-permissions.html": [
+    "glue.amazonaws.com",
+    "sagemaker.amazonaws.com",
+    "scheduler.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/singlesignon/latest/userguide/using-service-linked-roles.html": [
+    "sso.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/sns/latest/dg/prereqs-kinesis-data-firehose.html": [
+    "sns.amazonaws.com"
+  ],
+  "https://docs.aws.amazon.com/step-functions/latest/dg/procedure-create-iam-role.html": [
+    "states.amazonaws.com"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "iam-service-principal-snippets",
   "displayName": "AWS IAM Service Principal Snippets",
-  "description": "This VS Code extension provides autocompletion of all AWS services that can be used as Service Principals in your IAM policies.",
+  "description": "Context-aware completions for documented AWS IAM service principals in JSON, YAML, Terraform and AWS CDK.",
   "author": "Danny Steenman",
   "version": "1.90.0",
   "publisher": "dannysteenman",
@@ -13,7 +13,7 @@
     "url": "https://github.com/towardsthecloud/vscode-iam-service-principal-snippets.git"
   },
   "engines": {
-    "vscode": "^1.31.0"
+    "vscode": "^1.85.0"
   },
   "galleryBanner": {
     "color": "#2B2C33",
@@ -31,47 +31,34 @@
   ],
   "activationEvents": [
     "onLanguage:json",
-    "onLanguage:python",
+    "onLanguage:jsonc",
+    "onLanguage:yaml",
     "onLanguage:terraform",
     "onLanguage:typescript",
-    "onLanguage:yaml"
+    "onLanguage:typescriptreact",
+    "onLanguage:python"
   ],
   "main": "./out/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./"
+    "watch": "tsc -watch -p ./",
+    "test": "npm run compile && node out/test/run.js",
+    "test:python": ".venv/bin/python -m unittest discover -s tests -v",
+    "validate:catalog": ".venv/bin/python src/update_service_principals.py --check",
+    "package": "vsce package"
   },
   "devDependencies": {
-    "@types/node": "^14.x",
-    "@types/vscode": "^1.31.0",
-    "typescript": "^5.x"
+    "@types/node": "18.19.130",
+    "@types/vscode": "1.85.0",
+    "@vscode/test-electron": "3.1.0",
+    "@vscode/vsce": "4.0.0",
+    "typescript": "5.9.3"
   },
   "contributes": {
     "languages": [
-      {
-        "id": "json",
-        "aliases": [
-          "JSON",
-          "json"
-        ],
-        "extensions": [
-          ".json",
-          ".template"
-        ]
-      },
-      {
-        "id": "yaml",
-        "aliases": [
-          "YAML",
-          "yaml"
-        ],
-        "extensions": [
-          ".yaml",
-          ".yml",
-          ".template"
-        ]
-      },
+      { "id": "json", "extensions": [".template"] },
+      { "id": "yaml", "extensions": [".template"] },
       {
         "id": "terraform",
         "aliases": [
@@ -81,27 +68,6 @@
         "extensions": [
           ".tf",
           ".tfvars"
-        ]
-      },
-      {
-        "id": "python",
-        "aliases": [
-          "Python",
-          "python"
-        ],
-        "extensions": [
-          ".py"
-        ]
-      },
-      {
-        "id": "typescript",
-        "aliases": [
-          "TypeScript",
-          "typescript"
-        ],
-        "extensions": [
-          ".ts",
-          ".tsx"
         ]
       }
     ]

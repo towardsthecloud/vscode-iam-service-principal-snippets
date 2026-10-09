@@ -8,3 +8,12 @@
 **/*.ts
 out/README.md
 src/**
+**/*.map
+out/test/**
+tests/**
+test-results/**
+.nvmrc
+package-lock.json
+.ruff_cache/**
+.rumdl_cache/**
+tsconfig.json
