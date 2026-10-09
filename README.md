@@ -62,7 +62,7 @@ Coverage depends on these sources and is not exhaustive. IAM action prefixes and
 
 ## Development
 
-Use Node 24 from `.nvmrc` and Python 3.14. Install the pinned dependencies:
+Use Node 24 from `.nvmrc` and Python 3.14.8, matching CI. Install the pinned dependencies:
 
 ```sh
 fnm use
@@ -94,6 +94,8 @@ To refresh the catalog:
 Requests have bounded timeouts and retries. A failed source or missing required principal aborts the update; successful results are sorted and written atomically. Removals stop the update until reviewed and explicitly accepted with `--allow-removals`. Retired service guides are excluded explicitly, and the stale Lightsail link is mapped to its current AWS documentation page.
 
 Edit `src/requirements.in` when changing Python dependencies, then regenerate the lock with `uv pip compile src/requirements.in -o src/requirements.txt --no-header --no-annotate`.
+
+The VS Code type definitions match the minimum supported editor version, and Node type definitions match its Node 18 extension host. Keep these compatibility constraints when updating build tools and dependencies. GitHub Actions use explicit release version tags.
 
 ## Updates and releases
 
