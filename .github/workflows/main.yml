@@ -1,70 +1,60 @@
-name: Fetch AWS Service Principals and update this VSCode extension.
+name: Propose documented principal updates
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 9 * * 5" # At 09:20 on Friday.
+    - cron: '20 9 * * 5'
+permissions:
+  contents: read
+concurrency:
+  group: service-principal-update
+  cancel-in-progress: false
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
-          fetch-depth: 0
-      - name: Setup Python
-        uses: actions/setup-python@v5
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+          ref: main
+      - uses: actions/setup-node@v7.1.0
         with:
-          node-version: "20"
-      - name: Install Python
-        run: |
-          set -x -e
-          sudo apt install python3-setuptools
-          python3 -m pip install --upgrade pip && pip3 install -r src/requirements.txt
-      - name: Update the IAM Service Principal Snippets
-        run: |
-          echo "Update the IAM Service Principal Snippets"
-          python3 src/update_service_principals.py
-      - name: Check for changes
-        id: git-check
-        run: |
-          git diff --exit-code || echo "::set-output name=changes_exist::true"
-      - name: Commit changes to Github
-        if: steps.git-check.outputs.changes_exist == 'true'
-        run: |
-          set -x -e
-          # Configure git
-          git config --global user.name 'Github Actions'
-          git config --global user.email 'danny@towardsthecloud.com'
-
-          # Update version
-          npm version minor --force --no-git-tag-version
-          package_version=$(cat package.json | grep 'version":' | sed 's/[",]//g' | awk '{print $2}')
-
-          # Install dependencies and prepare for publishing
-          npm install
-          npm run vscode:prepublish
-
-          # Generate changelog
-          gitchangelog | tee "CHANGELOG.md"
-
-          # Commit and push changes
-          git commit -am "build: auto-update snippets to version: $package_version"
-          git push
-
-          # Create and push tag
-          git tag $package_version
-          git push origin --tags
-      - name: Publish to Visual Studio Marketplace
-        if: steps.git-check.outputs.changes_exist == 'true'
-        uses: HaaLeo/publish-vscode-extension@v1
-        id: publishToVSCE
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: astral-sh/setup-uv@v10.2.0
         with:
-          pat: ${{ secrets.VSCE_TOKEN }}
-          registryUrl: https://marketplace.visualstudio.com
-      - name: Publish to Open VSX Registry
-        if: steps.git-check.outputs.changes_exist == 'true'
-        uses: HaaLeo/publish-vscode-extension@v1
-        with:
-          pat: ${{ secrets.OPEN_VSX_TOKEN }}
-          extensionFile: ${{ steps.publishToVSCE.outputs.vsixPath }}
+          version: '0.12.24'
+          python-version: '3.14.8'
+      - run: npm ci
+      - run: uv venv && uv pip install -r src/requirements.txt
+      - name: Check for an existing update proposal
+        id: proposal
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          exists=$(gh pr list --state open --json headRefName --jq 'any(.[]; .headRefName | startswith("codex/update-service-principals-"))')
+          echo "exists=$exists" >> "$GITHUB_OUTPUT"
+      - name: Fetch and validate documentation
+        if: steps.proposal.outputs.exists != 'true'
+        run: |
+          .venv/bin/python src/update_service_principals.py
+          .venv/bin/python src/update_service_principals.py --check
+          .venv/bin/python -m unittest discover -s tests -v
+          xvfb-run -a npm test
+          VSCODE_VERSION=stable xvfb-run -a npm test
+          npm run package -- --out extension.vsix
+      - name: Open a reviewed update proposal
+        if: steps.proposal.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- snippets/service-principals.json; then exit 0; fi
+          branch="codex/update-service-principals-$GITHUB_RUN_ID"
+          git switch -c "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snippets/service-principals.json
+          git commit -m 'fix: update documented AWS service principals'
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title 'fix: update documented AWS service principals' --body 'Updates literal principals and their AWS documentation references. Catalog validation, updater regression tests, VS Code minimum/stable integration tests, and VSIX packaging passed before this proposal was opened. Review the catalog diff before merging and release through a version tag.'
