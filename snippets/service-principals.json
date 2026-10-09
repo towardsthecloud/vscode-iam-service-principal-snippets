@@ -859,6 +859,19 @@
       "documentation"
     ]
   },
+  "end-user-messaging.amazonaws.com": {
+    "originalNames": [
+      "AWS trust policy"
+    ],
+    "reference_url": "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html",
+    "reference_urls": [
+      "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html"
+    ],
+    "servicePrincipal": "end-user-messaging.amazonaws.com",
+    "sources": [
+      "documentation"
+    ]
+  },
   "events.amazonaws.com": {
     "originalNames": [
       "AWS trust policy"
@@ -1696,10 +1709,12 @@
   },
   "sms-voice.amazonaws.com": {
     "originalNames": [
-      "AWS End User Messaging SMS\n                and Voice V2"
+      "AWS End User Messaging SMS\n                and Voice V2",
+      "AWS trust policy"
     ],
-    "reference_url": "https://docs.aws.amazon.com/sms-voice/latest/userguide/using-service-linked-roles.html",
+    "reference_url": "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html",
     "reference_urls": [
+      "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html",
       "https://docs.aws.amazon.com/sms-voice/latest/userguide/using-service-linked-roles.html"
     ],
     "servicePrincipal": "sms-voice.amazonaws.com",
@@ -1722,10 +1737,12 @@
   },
   "social-messaging.amazonaws.com": {
     "originalNames": [
-      "AWS End User Messaging\n                Social"
+      "AWS End User Messaging\n                Social",
+      "AWS trust policy"
     ],
-    "reference_url": "https://docs.aws.amazon.com/social-messaging/latest/userguide/using-service-linked-roles.html",
+    "reference_url": "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html",
     "reference_urls": [
+      "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html",
       "https://docs.aws.amazon.com/social-messaging/latest/userguide/using-service-linked-roles.html"
     ],
     "servicePrincipal": "social-messaging.amazonaws.com",

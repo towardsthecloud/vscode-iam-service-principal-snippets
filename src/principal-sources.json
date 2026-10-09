@@ -37,6 +37,9 @@
   "https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-service-role.html": [
     "codedeploy.amazonaws.com"
   ],
+  "https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-security-slr-permissions.html": [
+    "end-user-messaging.amazonaws.com"
+  ],
   "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-use-resource-based.html": [
     "events.amazonaws.com",
     "delivery.logs.amazonaws.com"

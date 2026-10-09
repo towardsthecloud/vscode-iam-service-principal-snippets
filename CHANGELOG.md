@@ -10,6 +10,11 @@ Unreleased
 - Replace automatic weekly publishing with reviewed catalog proposals and validated tag releases. Require VS Code 1.85 or newer.
 
 
+1.90.0 (2026-10-02)
+-------------------
+- Build: auto-update snippets to version: 1.90.0. [Github Actions]
+
+
 1.89.0 (2026-09-25)
 -------------------
 - Build: auto-update snippets to version: 1.89.0. [Github Actions]
