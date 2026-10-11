@@ -38,6 +38,7 @@ jobs:
         if: always()
         with:
           name: vscode-report-${{ matrix.vscode }}
+          retention-days: 7
           path: test-results/vscode.json
           if-no-files-found: ignore
   package:
@@ -54,5 +55,6 @@ jobs:
       - uses: actions/upload-artifact@v7.0.2
         with:
           name: extension-package
+          retention-days: 7
           path: extension.vsix
           if-no-files-found: error
