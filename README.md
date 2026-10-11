@@ -107,6 +107,11 @@ Publishing uses the existing `VSCE_TOKEN` and `OPEN_VSX_TOKEN` repository secret
 
 ---
 
+## Related IAM extensions
+
+- [AWS IAM Actions Snippets](https://marketplace.visualstudio.com/items?itemName=dannysteenman.iam-actions-snippets) completes IAM actions and shows which actions match a wildcard.
+- [AWS IAM Policy Debugger](https://github.com/towardsthecloud/vscode-iam-policy-debugger) validates policies, explains request matches and saves regression scenarios in VS Code’s Testing panel. It is an unpublished development preview; build a local VSIX to try it.
+
 ## Support
 
 If you have a feature request or an issue, please let me know on [Github](https://github.com/towardsthecloud/vscode-iam-service-principal-snippets/issues)
