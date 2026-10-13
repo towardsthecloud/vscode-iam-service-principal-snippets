@@ -36,6 +36,7 @@ jobs:
           VSCODE_VERSION: ${{ matrix.vscode }}
       - uses: actions/upload-artifact@v7.0.2
         if: always()
+        continue-on-error: true
         with:
           name: vscode-report-${{ matrix.vscode }}
           retention-days: 7
