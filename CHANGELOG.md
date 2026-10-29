@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.92.1 (2026-10-29)
+-------------------
+- Publish releases with GitHub Trusted Publishing.
+
 1.92.0 (2026-10-09)
 -------------------
 - Fix completion context and hostname replacement in JSON, JSONC, YAML, Terraform, TypeScript, TSX, Python, and CloudFormation `.template` files.
