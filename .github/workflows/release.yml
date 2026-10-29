@@ -11,6 +11,9 @@ jobs:
   validate:
     uses: ./.github/workflows/ci.yml
   publish:
+    permissions:
+      contents: read
+      id-token: write
     needs: validate
     runs-on: ubuntu-latest
     strategy:
@@ -37,9 +40,7 @@ jobs:
           name: extension-package
       - name: Publish to Visual Studio Marketplace
         if: matrix.registry == 'marketplace'
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
-        run: npx --no-install vsce publish --packagePath extension.vsix
+        run: npx --yes @vscode/vsce@4.1.0 publish --oidc --packagePath extension.vsix
       - name: Publish to Open VSX
         if: matrix.registry == 'open-vsx'
         env:
